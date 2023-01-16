@@ -20,5 +20,7 @@ from .views import root_route
 urlpatterns = [
     path("", root_route),
     path("admin/", admin.site.urls),
-    path("cards/", include("cards.urls")),
+    path("", include("cards.urls")),
+    path("", include("keywords.urls")),
+    path("", include("artifacts.urls")),
 ]

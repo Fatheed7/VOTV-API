@@ -1,0 +1,682 @@
+[
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Bleed - Debuff",
+      "description": "Suffers damage per stack after enemy turn. Reduces by 1 when triggered. Ignores Fortitude and isn't affected by Rage.",
+      "keywords": ["Fortitude", "Rage"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Potions",
+      "description": "Don't take up deck space. Used and permanently consumed at start of combat.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Vulnerable - Debuff",
+      "description": "Suffers 50% more damage. Reduces by 1 each turn.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Consumable",
+      "description": "After playing this card, it is permanently destroyed.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Permanent",
+      "description": "This card can not be removed from your deck, and will not take up space in your deck.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Block",
+      "description": "Reduces current Threat.",
+      "keywords": ["Threat"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Destroy",
+      "description": "When sent to Discard, it is instead permanently removed.",
+      "keywords": ["Discard"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Volatile",
+      "description": "Can't be Purged. Destroyed after being played, Discarded or at the end of turn.",
+      "keywords": ["Purge", "Destroy", "Discard"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Expel",
+      "description": "Removed from Battle.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Weak - Debuff",
+      "description": "Reduces AP by 25%, to a minimum of 1. Reduces by 1 each turn.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Slow - Debuff",
+      "description": "Reduces Frenzy by 1 per stack (minimum of 1). Reduces by 1 each turn.",
+      "keywords": ["Frenzy"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Rigged",
+      "description": "At the start of battle, or when your deck is reshuffled, place this card on top of your deck.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Taunt",
+      "description": "Must be the target of Attack cards.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Overcharge",
+      "description": "Max Energy is increased by 1 per stack. At the start of each turn, gain 1 extra Energy and reduce Overcharge by 1.",
+      "keywords": ["Overcharge"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Unplayable",
+      "description": "Can not be played. Fancy that.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Scrap",
+      "description": "Automatically discarded at the end of enemy turn.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Fortitude",
+      "description": "Damage an enemy suffers will be removed from their Fortitude first. Removed at the start of the enemy's next turn.",
+      "keywords": ["Fortitude"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Threat",
+      "description": "When enemies attack, it is added to your Threat. Reduce Threat with Block. At the end of your turn, left over Threat reduces your HP.",
+      "keywords": ["Threat", "Block"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Burning",
+      "description": "Suffer Threat equal to Burning at the start of your turn. Purging cards reduce Burning by 1.",
+      "keywords": ["Threat", "Burning"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Minion",
+      "description": "Defeating the center enemy will end the fight, killing all Minions.",
+      "keywords": ["Minion"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Immune",
+      "description": "Immune to all damage and Debuffs (Bleed, Weak, Slow, etc)",
+      "keywords": ["Immune", "Bleed - Debuff", "Weak - Debuff", "Slow - Debuff"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Evasive",
+      "description": "Can't be the target of Attack Cards if there are enemies without evasive.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Fear",
+      "description": "After drawing, discard cards equal to your Fear value.",
+      "keywords": ["Fear"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Cripple",
+      "description": "At the start of your turn, draw X less cards. Clears at the end of the turn.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Confusion",
+      "description": "All cards increase their Energy cost by 1. Clears at the end of the turn. ",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Hex",
+      "description": "The next card you play will be sent to your Discard, and won't be played. Cleared at the end of your turn.",
+      "keywords": ["Discard"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Stun",
+      "description": "At the start of your turn, you will lose energy equal to your Stun value. Removed at the end of your turn.",
+      "keywords": ["Stun"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Poison",
+      "description": "Suffer Threat equal to Poison at the start of your turn. Reduces by 1 at the end of your turn.",
+      "keywords": ["Threat", "Poison"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Haunted",
+      "description": "Void Stone powers won't trigger while Haunted. Reduces by 1 each time you trigger a Void Stone.",
+      "keywords": ["Haunted"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Corruption",
+      "description": "Built up during Battle, usually by card effects or Purging.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Rebound",
+      "description": "The first time played in a turn, the card will be returned to your hand. Expel or Volatile cards won't Rebound.",
+      "keywords": ["Expel", "Volatile", "Rebound"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Swift",
+      "description": "Card will trigger +X times, equal to your Combo. Combo is then reset.",
+      "keywords": ["Combo"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Heavy",
+      "description": "Cards with the Heavy keyword. Keywords shown at the bottom of cards.",
+      "keywords": ["Heavy"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Buff",
+      "description": "Card effects that will last for the entire battle. Their effects can be stacked.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Purge",
+      "description": "Click and hold Right Mouse to Purge a card, gaining +1 Energy and sending it to your Discard. Some cards may have additional effects if Purged.",
+      "keywords": ["Purge", "Discard"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Frenzy",
+      "description": "Represents how many times an enemy will Attack. Enemies will attack for damage equal to their AP, multiplied by their Frenzy.",
+      "keywords": ["Frenzy"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Affliction Cards",
+      "description": "Negative cards, can't be Purged. Commonly Voids, Banes & Dazes.",
+      "keywords": ["Purge"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Void Cards",
+      "description": "Can be gained in a variety of ways. They are permanent and can't normally be removed from your deck.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Recur",
+      "description": "Return a chosen card from your Discard to your hand.",
+      "keywords": ["Discard"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Slay",
+      "description": "Triggers if you kill an enemy with the card.",
+      "keywords": ["Trigger"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Sift",
+      "description": "Discard a card from your Deck.",
+      "keywords": ["Discard"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Opener",
+      "description": "Will trigger if the card is the first card played in a turn.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Clone",
+      "description": "A copy of this card will be added to your Discard.",
+      "keywords": ["Discard"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Discard",
+      "description": "Effects trigger if you Discard the card, rather than playing it. Purging isn't considered Discarding.",
+      "keywords": ["Discard"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Combo",
+      "description": "Swift cards will trigger +X times where X is equal to your Combo. Combo resets after triggering.",
+      "keywords": ["Swift", "Combo"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Balanced",
+      "description": "Swift cards that are Balanced benefit from Combo, but does not consume it.",
+      "keywords": ["Swift", "Balanced", "Combo"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Corruption Lock",
+      "description": "Can no longer gain Corruption. Expires at end of turn.",
+      "keywords": ["Corruption"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Cycle",
+      "description": "For the remainder of the turn, draw 1 whenever you play a card.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Soultithe",
+      "description": "Gain a point of Corruption for each point of Soultithe gained. At the start of your turn, suffer Threat equal to your Soultithe.",
+      "keywords": ["Corruption", "Soultithe", "Threat"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Delay Block",
+      "description": "Block at the start of your next turn, before drawing cards.",
+      "keywords": ["Block"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Set Up",
+      "description": "The next card played will be sent to the top of your Deck.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Rage",
+      "description": "This turn, Attack and Affliction cards deal X% more damage.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Stealth",
+      "description": "Enemy creatures will skip their first turn. This effect can't be stacked.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Enemy Attack Actions",
+      "description": "Any action planned by a creature which will result in it Attacking.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Death Strike",
+      "description": "If your Death Strike is equal or higher than an Attack card's Energy cost, trigger +1 times. Reduce Death Strike by this card's Energy cost. 0 costs still reduce Death Strike by 1.",
+      "keywords": ["Death Strike"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Future Strike",
+      "description": "Inflicts damage at the end of every EVEN turn, then resets to 0. Not a Debuff.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Foresight",
+      "description": "Reduce the cost of a card from your deck to 0 until that card is played. Clone and Ghost copies won't retain this.",
+      "keywords": ["Clone", "Ghost"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Follow Up",
+      "description": "Triggers if your Chain matches with the card's type, or if you're in Zen.",
+      "keywords": ["Trigger", "Chain", "Zen State"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Zen State",
+      "description": "Enter Zen by playing 3 cards of the same type. In Zen, all cards will cost -1 energy. Duration: 5 cards played or end of turn.",
+      "keywords": ["Zen State"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Vision",
+      "description": "Choose a card from your discard to place on top of your deck.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Rewind",
+      "description": "Target creature's intention is changed to what it cast the turn prior.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Chain",
+      "description": "Playing cards of the same type (Attack/Ability/Buff) sequentially will advance your Chain. At 3, enter Zen.",
+      "keywords": ["Buff", "Chain", "Zen State"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Echo Wall",
+      "description": "Enemies will suffer damage equal to any Threat they inflict. Reduces by 1 at the start of your turn.",
+      "keywords": ["Threat"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Fatigue (Prayer Beads)",
+      "description": "Scales your Future Strike, increasing the number of times it's applied. Scales your Shii by adding its value to any applied.",
+      "keywords": ["Future Strike", "Shii"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Transfer",
+      "description": "When a Debuff is Transferred, it is allocated to another random creature.",
+      "keywords": ["Transfer"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Ghost",
+      "description": "Add a Volatile copy of this card to your hand.",
+      "keywords": ["Volatile"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Inert",
+      "description": "This card's Void Stone only triggers once per turn.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Shii",
+      "description": "Shii exceeding an enemy's HP will destroy it, transfering 50% split between remaining enemies. Unaffected by Vulnerable. Not a Debuff.",
+      "keywords": ["Shii", "Vulnerable - Debuff"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Desync",
+      "description": "Won't add to or interrupt your chain.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Solo",
+      "description": "Will trigger if the target is the only creature alive.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Fatigued",
+      "description": "Will trigger if the target has Fatigue.",
+      "keywords": ["Fatigue (Prayer Beads)"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Threshold",
+      "description": "If your Soultithe is equal to or above this value.",
+      "keywords": ["Soultithe"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Weakened",
+      "description": "Whilst Weakened, you can not gain Rage. Reduces by 1 at the end of your turn.",
+      "keywords": ["Weak - Debuff", "Weakened", "Rage"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Loop",
+      "description": "This card will be shuffled into your Deck. Expel and Volatile won't Loop.",
+      "keywords": ["Expel", "Volatile", "Loop"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Trigger",
+      "description": "Card effects repeat additional X times, include Void Stones. Triggers can't create more triggers. Counts as being 'played' once.",
+      "keywords": ["Trigger"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Delay Rage",
+      "description": "Next turn, gain X Rage. Rage increases Attack cards damage. Stacked additively.",
+      "keywords": ["Rage"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Clot",
+      "description": "Consume X Bleed from the target.",
+      "keywords": ["Bleed - Debuff"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "AP (Attack Power)",
+      "description": "Represents the strength of each attack. Enemies will attack for this much damage, multiplied by their Frenzy.",
+      "keywords": ["Frenzy"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "X Cost",
+      "description": "Consumes all your Energy, powering an effect multiple times. Ignores any cost modification.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Delay Draw",
+      "description": "You'll draw a extra X cards at the start of next turn.",
+      "keywords": []
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Zeal",
+      "description": "Gain 1 Zeal for every energy spent, triggering Zeal powers at certain levels. Resets at the end of turn.",
+      "keywords": ["Zeal"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Discharge",
+      "description": "Consume X Overcharge.",
+      "keywords": ["Overcharge"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Fervour",
+      "description": "Gain Fervour by defeating enemies on Heretic sites. Spend your Fervour on new Zeal Abilities.",
+      "keywords": ["Fervour", "Zeal"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Shock - Debuff",
+      "description": "An enemy's Shock will be added to an Attack card's damage (before Rage is applied!). Then Shock is reduced by half (rounding down).",
+      "keywords": ["Shock - Debuff", "Rage"]
+    }
+  },
+  {
+    "model": "keywords.Keywords",
+    "fields": {
+      "name": "Fumble",
+      "description": "The next X non-affliction cards you draw are sent to discard and replaced with Volatile copies.",
+      "keywords": ["Volatile"]
+    }
+  }
+]

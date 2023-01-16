@@ -28,7 +28,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEV' in os.environ
+# DEBUG = 'DEV' in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = [
    os.environ.get('ALLOWED_HOST'),
@@ -52,8 +53,12 @@ INSTALLED_APPS = [
     'dj_rest_auth',
     'django.contrib.sites',
     'dj_rest_auth.registration',
+    'sortedm2m',
+    'sortedm2m_filter_horizontal_widget',
 
     'cards',
+    'keywords',
+    'artifacts',
 ]
 
 SITE_ID = 1

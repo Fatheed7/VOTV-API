@@ -1,0 +1,3022 @@
+[
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 0,
+      "rarity": "",
+      "description": "Current list of Instabilties for this run.",
+      "name": "Instability"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 1,
+      "rarity": "",
+      "description": "Current list of Instabilties for this run.",
+      "name": "Instability"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 100,
+      "rarity": "Common",
+      "description": "The first non-Volatile Attack played each battle will be Upgraded and Cloned.",
+      "name": "The Lost Sword"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 101,
+      "rarity": "Rare",
+      "description": "At the start of each turn, draw 1 extra card.",
+      "name": "Bottle of Whiskey"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 102,
+      "rarity": "Common",
+      "description": "Each time an enemy dies, Overcharge 1 and Block 3.",
+      "name": "Lucky Tooth"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 103,
+      "rarity": "Common",
+      "description": "At the start of your first turn, heal 7.",
+      "name": "Jar of Hearts"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 104,
+      "rarity": "Common",
+      "description": "Every 5 Block cards played, Draw 1.",
+      "name": "Spiked Shield"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 105,
+      "rarity": "Common",
+      "description": "At the start of each battle, apply Weak 2 to all enemies.",
+      "name": "Voodoo Doll"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 106,
+      "rarity": "Uncommon",
+      "description": "At the start of your first turn, Rage 100%. If you are over 50% HP, gain 1 Energy.",
+      "name": "Prefight Meal"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 107,
+      "rarity": "Common",
+      "description": "Each time you draw a Bane, Draw 1.",
+      "name": "Wishbone"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 108,
+      "rarity": "Uncommon",
+      "description": "If the first card you play in a turn costs 0, Draw 1.",
+      "name": "Silver Gauntlets"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 109,
+      "rarity": "Uncommon",
+      "description": "Every 3 Swift cards played, apply Bleed 2 to all enemies.",
+      "name": "Fan of Blades"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 110,
+      "rarity": "Rare",
+      "description": "The first non-Volatile Attack card played each turn will Rebound.",
+      "name": "Butcher's Blade"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 111,
+      "rarity": "Rare",
+      "description": "Increase Max Energy by 1. At the start of your turn, you'll gain an additional +1 Energy.",
+      "name": "Book of Arcane Secrets"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 112,
+      "rarity": "Uncommon",
+      "description": "Each time you play a Slash or Draw Blood, add 1 Hidden Blade to your hand.",
+      "name": "Lucky Shiv"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 113,
+      "rarity": "Uncommon",
+      "description": "Each time you Expel a card, Draw 1.",
+      "name": "Dark Feather"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 114,
+      "rarity": "Common",
+      "description": "Each time you Expel a card, gain 1 Energy.",
+      "name": "Enchanted Waterbottle"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 115,
+      "rarity": "Rare",
+      "description": "At the start of each EVEN turn, add 3 Hidden Blades to your hand.",
+      "name": "Trusty Fishhook"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 116,
+      "rarity": "Common",
+      "description": "At the start of each turn, Block 2.",
+      "name": "Wooden Shield"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 117,
+      "rarity": "Uncommon",
+      "description": "After drawing your hand, for the duration of your turn, Block 1 each time you draw a card.",
+      "name": "Barbed Gauntlets"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 120,
+      "rarity": "Common",
+      "description": "Every 8 Attack cards played, Draw 1.",
+      "name": "Suspicious Blade Oil"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 127,
+      "rarity": "Rare",
+      "description": "After you play your second card in a turn, Rage 50%.",
+      "name": "Flask of Red Juice"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 129,
+      "rarity": "Rare",
+      "description": "Gain 1 Upgrade Point after each Perfect Victory.",
+      "name": "Flask of Purple Juice"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 133,
+      "rarity": "Uncommon",
+      "description": "Reduce the cooldown of all Spells by 1.",
+      "name": "Spell Stone"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 134,
+      "rarity": "Common",
+      "description": "Receive a random Merchant Artifact of any rarity.",
+      "name": "Random Artifact"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 135,
+      "rarity": "Common",
+      "description": "You'll start all fights with your Energy at its maximum.",
+      "name": "Sugar Rush"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 136,
+      "rarity": "Common",
+      "description": "Whenever you suffer Daze cards, Delay Block 8.",
+      "name": "Rations"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 137,
+      "rarity": "Uncommon",
+      "description": "Each time you gain a Void Stone that isn't already in a card, heal 15 HP.",
+      "name": "Apple a Day"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 138,
+      "rarity": "Common",
+      "description": "All enemies will spawn with Vulnerable 2.",
+      "name": "Mace of Skull Crushing"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 140,
+      "rarity": "Uncommon",
+      "description": "At the start of each fight, 1 Celerity will be added to your Deck.",
+      "name": "Thief's Tools"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 143,
+      "rarity": "Elite",
+      "description": "If you start a turn with 3 Energy or less, add a Volatile Side Step to your hand.",
+      "name": "Boots of Quickness"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 145,
+      "rarity": "Uncommon",
+      "description": "The first card containing a Green Void Stone played each fight will be returned to the top of your deck, even if it would Expel, and you'll Overcharge 1.",
+      "name": "Card Tricks"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 146,
+      "rarity": "Common",
+      "description": "You are no longer affected by the enemy abilities Taunt and Evasive.",
+      "name": "Helm of Focus"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 147,
+      "rarity": "Common",
+      "description": "The first instance of HP loss each fight is reduced by half.",
+      "name": "Ablative Pauldron"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 148,
+      "rarity": "Uncommon",
+      "description": "You can spend this at a Well of Stars to pick a second option from the top row.",
+      "name": "Silver Medal"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 150,
+      "rarity": "Uncommon",
+      "description": "At the start of your first turn, Overcharge 4.",
+      "name": "Jumper Cables"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 151,
+      "rarity": "Uncommon",
+      "description": "At the start of each battle, apply Weak 2 to all enemies and Delay Block 10.",
+      "name": "Vanguard Shield"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 152,
+      "rarity": "Common",
+      "description": "Each time you Purge an Ability card, deal 2 damage to the enemy with the lowest HP. Each time you Purge an Attack card, Block 1.",
+      "name": "Leather Gloves"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 153,
+      "rarity": "Common",
+      "description": "Gain +1 Max Energy every 2 turns. If you start your turn with 4 or more Energy, Block 2.",
+      "name": "Mobius Bracelet"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 154,
+      "rarity": "Uncommon",
+      "description": "When applying a Debuff to an enemy not suffering from any Debuffs, double its value.",
+      "name": "Regal Monocle"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 155,
+      "rarity": "Uncommon",
+      "description": "An Upgraded version of the first card you Purge in a fight will be added to your hand.",
+      "name": "Utility Belt"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 156,
+      "rarity": "Rare",
+      "description": "Each time you play a Block card, Delay Block 5.",
+      "name": "Hand Mirror"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 157,
+      "rarity": "Common",
+      "description": "At the start of your first turn, Delay Block 15.",
+      "name": "Leftovers"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 158,
+      "rarity": "Elite",
+      "description": "Every 6 Ability cards played, Rage 50%.",
+      "name": "Playbook"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 159,
+      "rarity": "Common",
+      "description": "The first card you Purge each Battle will be Upgraded.\nThe first card you Purge each turn will return to your deck.",
+      "name": "Recycling Bin"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 160,
+      "rarity": "Common",
+      "description": "Viewing your deck during battle will show the correct ordering of cards.",
+      "name": "Looking Glass"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 161,
+      "rarity": "Elite",
+      "description": "At the start of turn 4, apply Vulnerable 2, Weak 2 and Slow 2 to all enemies.",
+      "name": "Emergency Button"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 162,
+      "rarity": "Common",
+      "description": "You get 1 extra Max Energy for each 2 Soultithe you have.",
+      "name": "Meagre Offering"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 163,
+      "rarity": "Common",
+      "description": "On Turn 5, gain 10 Corruption.",
+      "name": "Caged Darkness"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 164,
+      "rarity": "Common",
+      "description": "Drinking any potion restores 8 HP. The 8th time this triggers, heal an additional 8 and the potion isn't consumed.",
+      "name": "Potion of Sourcery"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 165,
+      "rarity": "Uncommon",
+      "description": "The first time you Purge a non-X cost card each turn, your Soultithe will be reduced by its Energy cost.",
+      "name": "Discarded Totem"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 166,
+      "rarity": "Uncommon",
+      "description": "Yellow Void Stones will also grant Delay Block 4.",
+      "name": "Reinforced Stone"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 167,
+      "rarity": "Common",
+      "description": "If you have Soultithe at the end of your turn, reduce Soultithe by 1 and gain 1 Corruption.",
+      "name": "Page of Prayers"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 168,
+      "rarity": "Uncommon",
+      "description": "The first Attack or Ability you Purge each turn has its Void Stone triggered.",
+      "name": "Forceps"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 169,
+      "rarity": "Common",
+      "description": "Every 8th time you gain Corruption, double the amount gained.",
+      "name": "Black Heart"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 170,
+      "rarity": "Uncommon",
+      "description": "Red Void Stones will grant an additional Rage 25%.",
+      "name": "Rage Stone"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 171,
+      "rarity": "Common",
+      "description": "Upon reaching 40 Corruption for the first time each fight, heal 7.",
+      "name": "Black Cherry"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 172,
+      "rarity": "Uncommon",
+      "description": "Each time you gain Corruption, deal 2 damage to a random enemy.",
+      "name": "Rusty Scythe"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 173,
+      "rarity": "Uncommon",
+      "description": "Each time you discard an Affliction card, Block 3.",
+      "name": "Cleansing Oil"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 174,
+      "rarity": "Rare",
+      "description": "Gain Corruption and Delay Block at the end of the turn equal to leftover Energy.",
+      "name": "Unceasing Gear"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 175,
+      "rarity": "Uncommon",
+      "description": "The first time you Sift each turn, Sift 1 more.",
+      "name": "Amethyst Spyglass"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 176,
+      "rarity": "Uncommon",
+      "description": "Death Strike no longer has a minimum reduction of 1 after triggering, meaning 0 cost cards won't reduce it by 1.",
+      "name": "Bladed Staff"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 177,
+      "rarity": "Common",
+      "description": "Starting from Turn 3, your max Combo is increased by 1.",
+      "name": "Oversized Knife"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 178,
+      "rarity": "Common",
+      "description": "When a Bleeding enemy dies, apply 50% of their Bleed to a random enemy.",
+      "name": "Serpent's Skull"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 179,
+      "rarity": "Uncommon",
+      "description": "Your max Combo is increased by 1.",
+      "name": "Twin Blade"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 180,
+      "rarity": "Common",
+      "description": "When playing a Balanced card at 0 Combo, Block 4.",
+      "name": "Mitten Gauntlet"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 181,
+      "rarity": "Rare",
+      "description": "When playing a card that costs you 2 or more Energy, gain Combo 1.",
+      "name": "Throwing Star"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 182,
+      "rarity": "Uncommon",
+      "description": "If you are below 50% HP at the start of your turn, apply Slow 1 to all enemies.",
+      "name": "Frozen Sphere"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 183,
+      "rarity": "Rare",
+      "description": "When an enemy is brought below 65% HP, apply Weak 8 and Vulnerable 8 to them.",
+      "name": "Execution Order"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 184,
+      "rarity": "Elite",
+      "description": "The 2nd card you Purge each turn causes all Debuffs suffered to be reduced by 1.",
+      "name": "Purifier Diadem"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 185,
+      "rarity": "Elite",
+      "description": "After you cast your spell, apply Vulnerable 2 to a random enemy.",
+      "name": "Barbed Wand"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 186,
+      "rarity": "Common",
+      "description": "At the start of your first turn, Foresight 1.",
+      "name": "Crystal Ball"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 187,
+      "rarity": "Uncommon",
+      "description": "If you trigger Zen using an Attack Chain, gain 2 more card plays in Zen.\nIf you trigger Zen using an Ability Chain, draw 1 card.\nIf you trigger Zen using a Buff Chain, gain 3 Energy.",
+      "name": "Trusty Fork"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 188,
+      "rarity": "Common",
+      "description": "Whenever you play a card that doesn't match your current Chain, Block 4.",
+      "name": "Foot Wraps"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 189,
+      "rarity": "Common",
+      "description": "Each time you play a card whilst in Zen, Delay Block 1.",
+      "name": "Blessing Stone"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 190,
+      "rarity": "Uncommon",
+      "description": "Whilst in Zen, your card play limit is increased by 2.",
+      "name": "Delay Stones"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 191,
+      "rarity": "Elite",
+      "description": "At the end of your turn, gain charges equal to the number of Zen card plays left. At the start of your turn, if at 8 or higher, enter Zen.",
+      "name": "Pendant of Focus"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 192,
+      "rarity": "Common",
+      "description": "Start each battle with Echo Wall 2.",
+      "name": "Smelling Salts"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 193,
+      "rarity": "Common",
+      "description": "The first card Expelled each battle is Discarded instead.",
+      "name": "Time Portal"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 194,
+      "rarity": "Rare",
+      "description": "Shii gains twice the bonus from Fatigue.",
+      "name": "Meditation Cushion"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 195,
+      "rarity": "Rare",
+      "description": "All enemies spawn with Fatigue 1.",
+      "name": "Punching Bag"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 196,
+      "rarity": "Common",
+      "description": "After defeating an Elite, heal 15 HP.",
+      "name": "Green Tea"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 197,
+      "rarity": "Rare",
+      "description": "When you enter Zen, Draw 1.",
+      "name": "Stoic Mask "
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 198,
+      "rarity": "Elite",
+      "description": "At the start of each turn, Block 2, +1 for each point of Fatigue across all enemies.",
+      "name": "Padded Robes"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 199,
+      "rarity": "Elite",
+      "description": "The second time each turn you gain Combo, Combo 1.",
+      "name": "Amulet of Speed"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 200,
+      "rarity": "Elite",
+      "description": "Every 4th battle round, trigger the Bleed of all enemies at the start of your turn.",
+      "name": "Hemolytic Vial"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 201,
+      "rarity": "Elite",
+      "description": "Mousing over a Mob room will allow you to see which Mobs await inside. Every second battle, you'll start with Stealth, meaning that enemies will skip their first turn.",
+      "name": "The Seers Eye"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 202,
+      "rarity": "Common",
+      "description": "At the end of each battle, you will gain an additional 45 Essence.",
+      "name": "Untrustworthy Coinpurse"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 203,
+      "rarity": "Elite",
+      "description": "Every 7th Attack card played will trigger an additional time.",
+      "name": "Band of Power"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 204,
+      "rarity": "Elite",
+      "description": "Every 5th Block card played will trigger an additional time.",
+      "name": "Band of Resilience"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 205,
+      "rarity": "Elite",
+      "description": "Increase the rate the Void Stone bar fills by 350%.",
+      "name": "Dwarven Beard Knot"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 207,
+      "rarity": "Common",
+      "description": "Each time you draw an Affliction, Rage 25%.",
+      "name": "Corrupted Heart"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 208,
+      "rarity": "Elite",
+      "description": "Each time you reshuffle your deck, gain 3 Corruption for each Affliction reshuffled.",
+      "name": "Rotten Egg"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 209,
+      "rarity": "Elite",
+      "description": "Every 5th time you Purge a card, Block 9.",
+      "name": "The Watcher"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 210,
+      "rarity": "Elite",
+      "description": "The 2nd card you Purge each turn causes you to gain 2 Energy, instead of 1.",
+      "name": "Pickled Hand"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 212,
+      "rarity": "Elite",
+      "description": "If you end your turn with 0 Energy, Overcharge 1.\nIf you end your turn with 5 or more Energy, Delay Rage 25%.",
+      "name": "Wizard's Hat"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 219,
+      "rarity": "Common",
+      "description": "If you gain an amount of Block exactly equal to remaining Threat, Delay Block 10.",
+      "name": "Square Peg"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 224,
+      "rarity": "Uncommon",
+      "description": "At the start of your turn, Block 3 for each unique Debuff you are suffering from.",
+      "name": "Penitent Seal"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 225,
+      "rarity": "Elite",
+      "description": "Your first time each turn you gain Soultithe grants thrice the Corruption.",
+      "name": "Raven Hood"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 226,
+      "rarity": "Elite",
+      "description": "Each time you gain Soultithe, Block 2.",
+      "name": "Human Shield"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 227,
+      "rarity": "Elite",
+      "description": "Each time you play a card with the same name as a card already played this turn, Block 4.",
+      "name": "Fractal Feather"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 228,
+      "rarity": "Elite",
+      "description": "Each time you start a turn with 20 or more Corruption, add 1 Volatile Soultax to your hand.",
+      "name": "Tax Ledger"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 229,
+      "rarity": "Common",
+      "description": "Gain 2 Corruption at the end of the turn if you hadn't played any Attacks that turn.",
+      "name": "Bleak Contract"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 230,
+      "rarity": "Common",
+      "description": "The first enemy you deal Future Strike to each Battle, apply Slow 2 to.",
+      "name": "Frozen Flower"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 231,
+      "rarity": "Common",
+      "description": "Deal 2 Future Strike, once, to a random enemy at the start of your turn.",
+      "name": "Clawed Chain"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 232,
+      "rarity": "Uncommon",
+      "description": "Future Strike also triggers on Turn 3, and all enemies will gain 1 Fatigue after it triggers.",
+      "name": "Red Hourglass"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 233,
+      "rarity": "Uncommon",
+      "description": "When applying Slow to an enemy with Fatigue that currently doesn't have Slow, increase the amount by 1.",
+      "name": "Hooked Bo"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 234,
+      "rarity": "Uncommon",
+      "description": "Delay Block equal to half of unused Delay Block at the start of the turn.",
+      "name": "Echo Armour"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 235,
+      "rarity": "Elite",
+      "description": "Upon Discarding 3 or more cards in the same turn, Overcharge 2.",
+      "name": "Dark Conduit"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 236,
+      "rarity": "Common",
+      "description": "When a enemy's Shii passes over half of their current HP, apply Slow 1 & Weak 1.",
+      "name": "Phantom Bolas"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 237,
+      "rarity": "Uncommon",
+      "description": "Shii's Death Transfer is set to 100%.",
+      "name": "Spectral Candle"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 238,
+      "rarity": "Elite",
+      "description": "When dealing Future Strike or Shii to a Slowed enemy, increase the amount dealt each time by 2.",
+      "name": "Steel Knuckles"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 239,
+      "rarity": "Rare",
+      "description": "Whilst in Zen, playing an Attack does Delay Block 3, playing an Ability deals 3 Future Strike twice to a random enemy, and playing a Buff or Affliction does Block 6.",
+      "name": "Ornate Fork"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 240,
+      "rarity": "Elite",
+      "description": "If the 1st card played in a turn had Opener, the Opener effect of your 2nd played card will trigger as well.",
+      "name": "Corkscrew"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 241,
+      "rarity": "Rare",
+      "description": "When you have no active Chain, any card played will count as having Chain 1.",
+      "name": "Blessed Cuffs"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 242,
+      "rarity": "Elite",
+      "description": "Every 3rd time you Delay Block, Block an equal amount.",
+      "name": "Knee Pads"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 243,
+      "rarity": "Elite",
+      "description": "The first application of Shii each turn is doubled.",
+      "name": "Jade Mantis"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 244,
+      "rarity": "Elite",
+      "description": "Each time a enemy takes a hit from Future Strike, apply Shii 1. This Shii is not modified by Fatigue.",
+      "name": "Hallowed Lotus"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 245,
+      "rarity": "Common",
+      "description": "At the start of your first turn, Sift 3.",
+      "name": "Long Pliers"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 246,
+      "rarity": "Elite",
+      "description": "When you cast your Spell, Block equal to 3 times your Spell's cooldown.",
+      "name": "Spell Shield"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 247,
+      "rarity": "Elite",
+      "description": "Each time you play an Attack, this artifact gains 1 charge. If you have 9 or more charges, playing a Block will cause it to trigger +1 times and consume 9 charges. Max 18 charges.",
+      "name": "Aegis of Ifraem"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 248,
+      "rarity": "Elite",
+      "description": "If you kept a non-Affliction card in your hand at the end of the turn, you will Draw 1 more card at the start of the next turn.",
+      "name": "Carrying Case"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 249,
+      "rarity": "Elite",
+      "description": "When you play your 4th Attack in one turn, gain 2 Hidden Blades.",
+      "name": "Blade Belt"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 250,
+      "rarity": "Elite",
+      "description": "Every 12 Attack cards played, gain 3 Hidden Blades.",
+      "name": "Cutting Fan"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 251,
+      "rarity": "Elite",
+      "description": "Block 3 for each Combo consumed.",
+      "name": "Basket-Hilted Broadsword"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 252,
+      "rarity": "Elite",
+      "description": "Each time you cast your Spell, Combo 1.",
+      "name": "Runed Pommel"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 253,
+      "rarity": "Elite",
+      "description": "Every 4th non-Balanced Swift Attack played is Balanced.",
+      "name": "Knave's Katar"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 254,
+      "rarity": "Elite",
+      "description": "All of your Bleed-applying cards apply 1 more Bleed.",
+      "name": "Splattered Sawblade"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 255,
+      "rarity": "Elite",
+      "description": "Every 12 Attack cards played, trigger Bleed on all creatures.",
+      "name": "Sanguine Stopwatch"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 256,
+      "rarity": "Elite",
+      "description": "Start each battle with Echo Wall 1.\nEcho Wall only reflects 1/3rd of the damage, but you Delay Block equal to reflected damage.",
+      "name": "Glowing Brick"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 257,
+      "rarity": "Elite",
+      "description": "Cards with a base cost of 2 or more will cost 0 while in Zen, but reduce your Zen card plays by their base cost.",
+      "name": "Prayer Box"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 259,
+      "rarity": "Common",
+      "description": "Each time an enemy attacks you, Delay Block equal to that enemy's Fatigue.",
+      "name": "Running Shoes"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 260,
+      "rarity": "Common",
+      "description": "Deal Shii to enemies equal to damage dealt by Echo Wall.",
+      "name": "Phantom Spike"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 261,
+      "rarity": "Rare",
+      "description": "All Buff cards have Chain 2.",
+      "name": "Viridian Sash"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 262,
+      "rarity": "Rare",
+      "description": "The first card you play each turn is Foreseen (after being played).",
+      "name": "Temporal Prism"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 263,
+      "rarity": "Rare",
+      "description": "Each time you play an Attack, deal damage to all enemies equal to Fatigue stacks across all enemies.",
+      "name": "Micro Darts"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 264,
+      "rarity": "Uncommon",
+      "description": "A partially-completed Chain doesn't reset at the end of the turn.",
+      "name": "Reformed Ring"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 265,
+      "rarity": "Elite",
+      "description": "Every 3rd time you gain Rage, gain twice the amount. (This does not include Delay Rage being gained or triggered.)",
+      "name": "Paired Sai"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 266,
+      "rarity": "Elite",
+      "description": "Delayed Block 1 each time you play a non-Ability card.",
+      "name": "Pocket Pagoda"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 267,
+      "rarity": "Elite",
+      "description": "Start each turn with 1 Ability Chain.",
+      "name": "Straw Hat"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 268,
+      "rarity": "Elite",
+      "description": "Your first Attack played in Zen each turn applies Weak 1.",
+      "name": "Sweaty Palm"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 269,
+      "rarity": "Uncommon",
+      "description": "Opener will trigger on your first Opener card of the turn, even if it isn't your first card played.",
+      "name": "Tiny Gong"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 270,
+      "rarity": "Elite",
+      "description": "At the end of the turn, before your Threat triggers, deal Shii 1 to all enemies an amount of times equal to your unused Zen card plays.",
+      "name": "Sapphire Sloth"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 271,
+      "rarity": "Elite",
+      "description": "When you enter Zen, gain 100% Rage. Your next Attack this turn reduces Rage by 100%.",
+      "name": "Obsidian Fist"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 272,
+      "rarity": "Rare",
+      "description": "When you Block, half of excess Block becomes Delay Block.",
+      "name": "Echo Cloak"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 273,
+      "rarity": "Common",
+      "description": "At the start of each Battle, apply Bleed 4 to all enemies.",
+      "name": "Exploding Pomegranate"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 274,
+      "rarity": "Uncommon",
+      "description": "Delay Block 1 when Bleed is reduced or triggered.",
+      "name": "Crystalized Ichor"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 275,
+      "rarity": "Uncommon",
+      "description": "Reduce all Clot costs by 1.",
+      "name": "Gauze"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 276,
+      "rarity": "Elite",
+      "description": "Bleed triggers before enemy actions instead of after, and doesn't reduce down when triggered.",
+      "name": "Garnet Band"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 277,
+      "rarity": "Elite",
+      "description": "Your Max Combo is 1 lower. When you play an Ability, Combo 1.",
+      "name": "Strange Stimulants"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 278,
+      "rarity": "Elite",
+      "description": "The first Buff you play each turn costs 2 less.",
+      "name": "Gilded Sheath"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 279,
+      "rarity": "Uncommon",
+      "description": "Whenever Bleed triggers or is reduced, Rage 25%. (Rage gained from passive Bleed triggering will immediately go away at the end of the turn.)",
+      "name": "Red Glasses"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 280,
+      "rarity": "Elite",
+      "description": "Every 12th time you discard a card, deal 20 damage to all enemies.",
+      "name": "Midnight Clock"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 281,
+      "rarity": "Elite",
+      "description": "The 4th card each turn you Purge or Discard is returned to your hand.",
+      "name": "Compost"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 282,
+      "rarity": "Elite",
+      "description": "At the start of each turn, Block 1 for every 2 Soultithe.",
+      "name": "Abandoned Pet"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 283,
+      "rarity": "Rare",
+      "description": "At the start of each turn, Discard 1, then Recur 1.",
+      "name": "Ballet Shoes"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 284,
+      "rarity": "Elite",
+      "description": "Each time you Expel a card, gain 1 Corruption.",
+      "name": "Abacus"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 285,
+      "rarity": "Elite",
+      "description": "Each time you reshuffle your deck, gain 3 Corruption for each Affliction reshuffled.",
+      "name": "Rotten Egg"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 286,
+      "rarity": "Elite",
+      "description": "Starting from turn 2, draw 2 extra cards at the start of your turn, but gain 2 less Energy.",
+      "name": "'Drinking' Alcohol"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 287,
+      "rarity": "Uncommon",
+      "description": "At the start of each turn, Draw 1 and choose a card to place on the bottom of your Deck.",
+      "name": "Card Sharp's Sleeve"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 288,
+      "rarity": "Elite",
+      "description": "Each time you Block, Block 1. Each time you Delay Block, Delay Block 1. This does not trigger itself.",
+      "name": "Performance Enhancers"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 289,
+      "rarity": "Elite",
+      "description": "The first 5 times each Battle you Purge a Heavy card, Overcharge 1 and deal 6 damage to all enemies.",
+      "name": "Lightning Bolt Keychain"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 290,
+      "rarity": "Uncommon",
+      "description": "The first time each Battle you play a Heavy card, Block 10 and deal 10 damage to all enemies.",
+      "name": "Spiked Pommel"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 291,
+      "rarity": "Elite",
+      "description": "At the start of each turn, Threshold 1: Block 4 and Reduce Soultithe by 1.",
+      "name": "Ancient Idol"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 292,
+      "rarity": "Elite",
+      "description": "At the start of each turn, Threshold 6: Soultithe 2 and Rage 50%.",
+      "name": "Iridescent Cloak"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 293,
+      "rarity": "Elite",
+      "description": "At the start of each turn, Soultithe 1, gain 2 Corruption, and Block 1.",
+      "name": "Cursed Bracelet"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 294,
+      "rarity": "Elite",
+      "description": "The first time each turn you Sift a non-Expel card, place a Volatile copy of it into your hand.",
+      "name": "Dragon Scale"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 295,
+      "rarity": "Elite",
+      "description": "Each time you gain Soultithe, deal thrice that much damage to all enemies.",
+      "name": "Trained Attack Crow"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 296,
+      "rarity": "Elite",
+      "description": "At the start of your turn, if you have less than 24 Corruption, apply Weak 1 to all enemies.",
+      "name": "Cracked Sundial"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 297,
+      "rarity": "Elite",
+      "description": "Each turn, the first time you Draw during your turn, Draw 1, Discard 1, and gain 1 Corruption.",
+      "name": "Pale Butterfly"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 298,
+      "rarity": "Elite",
+      "description": "At the start of each turn, Vision 1.",
+      "name": "Scrying Pool"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 299,
+      "rarity": "Uncommon",
+      "description": "At the start of each Battle, apply Slow 2 to all enemies.",
+      "name": "Quartz Crane"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 300,
+      "rarity": "Elite",
+      "description": "When you enter Zen, Block 4. If you have no Threat, Rage 25%.",
+      "name": "Topaz Tiger"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 301,
+      "rarity": "Elite",
+      "description": "From turn 4 onward, draw 1 extra card at the start of your turn.",
+      "name": "Overstuffed Pouch"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 302,
+      "rarity": "Rare",
+      "description": "If you have less than 3 attacks at the start of your turn, add a Volatile Stability to hand. If you have less than 3 abilities at the start of your turn, add a Volatile Clarity to hand.",
+      "name": "Bell of Clarity"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 303,
+      "rarity": "Elite",
+      "description": "If your Threat is 0 at the start of your turn, Rage 100%.",
+      "name": "Red Pills"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 304,
+      "rarity": "Elite",
+      "description": "Every 3rd turn, your Threat stack won't trigger.",
+      "name": "Camo Cloak"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 305,
+      "rarity": "Elite",
+      "description": "The first time each turn you play an Attack card, add a Volatile Light It Up to your hand.",
+      "name": "Light Bulb"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 306,
+      "rarity": "Elite",
+      "description": "At the start of each turn, apply Bleed 2 to all Vulnerable enemies. For each Weak enemy, Block 2. For each Slow enemy, Delay Block 2.",
+      "name": "Glass Prism"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 307,
+      "rarity": "Elite",
+      "description": "At the end of every even turn, deal damage to all enemies equal to the number of cards in your Expel and Destroy piles.",
+      "name": "Forgotten Fuse"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 308,
+      "rarity": "Elite",
+      "description": "At the end of your turn, apply Bleed 1 to all enemies for each card you drew that turn (after drawing your starting hand).",
+      "name": "Card Spikes"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 309,
+      "rarity": "Elite",
+      "description": "Each turn, the first time you spend Combo, Draw 1.",
+      "name": "Combo Platter"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 310,
+      "rarity": "Uncommon",
+      "description": "Each time you Expel a card, Combo 1.",
+      "name": "Modern Art"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 311,
+      "rarity": "Common",
+      "description": "When you lose health, trigger all Bleed.",
+      "name": "Living Blood"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 312,
+      "rarity": "Elite",
+      "description": "Each turn, the first time you Discard, Draw & Discard 1.",
+      "name": "Everlasting Sapphire"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 313,
+      "rarity": "Elite",
+      "description": "Add 10 Void Coins to Discard at the start of each battle.",
+      "name": "Nest Egg"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 314,
+      "rarity": "Elite",
+      "description": "Every 10th time you gain Corruption, Death Strike 1.",
+      "name": "Chalice of Evil"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 315,
+      "rarity": "Elite",
+      "description": "The first time each turn you spend Death Strike, Death Strike 1.",
+      "name": "Red Nail Polish"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 316,
+      "rarity": "Elite",
+      "description": "The first time each turn you Expel a card, add 2 Void Coins to Discard.",
+      "name": "Traveller's Cheque"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 317,
+      "rarity": "Elite",
+      "description": "After you finish Sifting 1 or more cards, add a Void Coin to Discard.",
+      "name": "Phoenix Feather"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 318,
+      "rarity": "Uncommon",
+      "description": "The second time each turn you gain Rage, Death Strike 1.",
+      "name": "Barbed Bracelet"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 319,
+      "rarity": "Rare",
+      "description": "At the start of each turn, add a Void Coin to hand.",
+      "name": "Memory Box"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 337,
+      "rarity": "",
+      "description": "Receive a random Common Merchant Artifact.",
+      "name": "Random Common Artifact"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 338,
+      "rarity": "",
+      "description": "Receive a random Uncommon Merchant Artifact.",
+      "name": "Random Uncommon Artifact"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 339,
+      "rarity": "",
+      "description": "Receive a random Rare Merchant Artifact.",
+      "name": "Random Rare Artifact"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 366,
+      "rarity": "Rare",
+      "description": "Unlock all Zeal Powers. At the start of each turn, Zeal 2.",
+      "name": "Codex of Ultimate Fervour"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 367,
+      "rarity": "Rare",
+      "description": "When you reach Zeal 3, trigger your Zeal 3 power an extra time.\nWhen you reach Zeal 5, trigger your Zeal 5 power an extra time.",
+      "name": "Champion's Banner"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 368,
+      "rarity": "Rare",
+      "description": "At the start of each turn, gain 2 Energy and your next card costs 1 more.",
+      "name": "Power Glove"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 369,
+      "rarity": "Elite",
+      "description": "The first time each turn you hit 50% Rage, Overcharge 1.",
+      "name": "Hand-Cranked Lantern"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 370,
+      "rarity": "Elite",
+      "description": "Each time you play a Buff card, Overcharge 1.",
+      "name": "Dynamo"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 371,
+      "rarity": "Elite",
+      "description": "The first time each turn you Discharge, apply Shock 6 to the highest HP enemy.",
+      "name": "Energy Redirector"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 372,
+      "rarity": "Elite",
+      "description": "Each time you apply Shock, apply 1 more.",
+      "name": "Conductive Paste"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 373,
+      "rarity": "Elite",
+      "description": "Every 3rd time you gain Rage, gain twice as much. (This does not include Delay Rage being gained or triggered.)",
+      "name": "Paired Rapiers"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 374,
+      "rarity": "Elite",
+      "description": "If you play an X cost card for 3 or more energy, Overcharge 1 and Zeal 2.",
+      "name": "Divine Hammer"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 375,
+      "rarity": "Elite",
+      "description": "At the end of your turn, Delay Block equal to half your Zeal.",
+      "name": "Scutum of Faith"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 376,
+      "rarity": "Elite",
+      "description": "Every 4th time you play a Block card, recur a random Heavy card.",
+      "name": "Iron Scabbard"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 377,
+      "rarity": "Elite",
+      "description": "Each time you Expel a card, Delay Rage 25% and Zeal 1.",
+      "name": "Doomsday Pamphlet"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 378,
+      "rarity": "Elite",
+      "description": "At the start of each turn, Discharge 1: Gain 1 Energy.",
+      "name": "Tesla Trident"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 379,
+      "rarity": "Elite",
+      "description": "Each time Shock is reduced on an enemy, Block 2.",
+      "name": "Magnetic Pavise"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 380,
+      "rarity": "Elite",
+      "description": "For each Overcharge reduced, Block 1.",
+      "name": "Winged Circlet"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 381,
+      "rarity": "Elite",
+      "description": "The first Attack played each turn has Discharge 1: Ghost.",
+      "name": "Spirit Flail"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 382,
+      "rarity": "Elite",
+      "description": "If you start your turn with 7 or more Energy, apply Vulnerable 1 to all enemies.",
+      "name": "Redeemer's Lash"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 383,
+      "rarity": "Uncommon",
+      "description": "Green Void Stones will also Overcharge 1.",
+      "name": "Conductor Stone"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 384,
+      "rarity": "Uncommon",
+      "description": "Each time you gain Tempo (your next card costs X more/less), Rage 25% and Delay Rage 25%.",
+      "name": "Tireless Greaves"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 385,
+      "rarity": "Uncommon",
+      "description": "Every 7th card you play gives double its cost in Zeal.",
+      "name": "Warhorn"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 386,
+      "rarity": "Uncommon",
+      "description": "Each time you pay 4 or more energy for a card, add an Upgraded Volatile Clashing Steel to your hand.",
+      "name": "Anointed Breastplate"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 387,
+      "rarity": "Common",
+      "description": "At the start of each turn, Zeal 1.",
+      "name": "Marching Drum"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 388,
+      "rarity": "Common",
+      "description": "At the start of every EVEN turn, Zeal 2.",
+      "name": "Flashy Baton"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 389,
+      "rarity": "Common",
+      "description": "The first time each turn you play an Attack card, Rage 25%.",
+      "name": "Jousting Lance"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 390,
+      "rarity": "Common",
+      "description": "If you have less than 5 Overcharge at the start of your turn, Delay Block 4.",
+      "name": "Delicious Crust"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 431,
+      "rarity": "Common",
+      "description": "At the end of each turn, for each 25% Rage you have, apply Bleed 1 to all enemies.",
+      "name": "Orb of Aneurysm"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 432,
+      "rarity": "Uncommon",
+      "description": "Each turn, the first time you spend Combo, add 1 Hidden Blade to hand.",
+      "name": "Cheese Knife"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 433,
+      "rarity": "Rare",
+      "description": "Each time you play a Buff card, your max Combo is increased by 1.",
+      "name": "Dashing Hat"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 434,
+      "rarity": "Rare",
+      "description": "Start each turn at max Combo.",
+      "name": "Spice"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 435,
+      "rarity": "Rare",
+      "description": "Each time you play a 0 cost card, Delay Rage 25%.",
+      "name": "Farmer's Falx"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 436,
+      "rarity": "Elite",
+      "description": "The first time each turn you hit 50% Rage, Combo 1.",
+      "name": "Blackjack"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 437,
+      "rarity": "Elite",
+      "description": "At the end of each turn, spend 1 Combo to Delay Draw 1.",
+      "name": "Caltrops"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 438,
+      "rarity": "Elite",
+      "description": "For each Combo gained past your max, Block 6.",
+      "name": "Fencing Mask"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 439,
+      "rarity": "Elite",
+      "description": "At the start of each turn, each enemy suffers Clot 2: Apply Weak 1.",
+      "name": "Fistful of Salt"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 440,
+      "rarity": "Elite",
+      "description": "Every 5th time you generate a Hidden Blade or Silent Shiv, Rage 50%.",
+      "name": "Assassin's Arsenal"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 441,
+      "rarity": "Common",
+      "description": "If you end your turn with Overcharge equal to a multiple of 5, Delay Rage 25% and Delay Block 3.",
+      "name": "Perfect Level"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 442,
+      "rarity": "Common",
+      "description": "The first time each battle you reduce your Overcharge to 0, Overcharge 2.",
+      "name": "Granola Bar"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 443,
+      "rarity": "Common",
+      "description": "The first time each battle you apply Shock, apply 8 more.",
+      "name": "Lemon Battery"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 444,
+      "rarity": "Uncommon",
+      "description": "If you end your turn with 2, 4, 6 or 9 Zeal, gain 1 Energy.",
+      "name": "Hymn Book"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 445,
+      "rarity": "Uncommon",
+      "description": "All Buff cards give double their cost in Zeal.",
+      "name": "Parade Tuba"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 446,
+      "rarity": "Rare",
+      "description": "Every time you trigger a Zeal power, apply Shock 2 to the highest HP enemy.",
+      "name": "Electrometronome"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 447,
+      "rarity": "Rare",
+      "description": "At the end of each turn, Delay Block 4, +1 for every 25% Rage you have.",
+      "name": "Stress Toy"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 448,
+      "rarity": "Rare",
+      "description": "At the end of each turn, if your Overcharge is EVEN, apply Weak 2 to the highest HP enemy.\nIf ODD, apply Vulnerable 2 instead.",
+      "name": "Leaky Wires"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 449,
+      "rarity": "Elite",
+      "description": "Every 3rd time you Discharge, you don't spend any Overcharge.",
+      "name": "Bulging Capacitor"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 450,
+      "rarity": "Elite",
+      "description": "The first time each turn you play a card with a modified cost, your next card costs -1.",
+      "name": "Loyalty Card"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 451,
+      "rarity": "Elite",
+      "description": "At the end of turn 3, apply Shock equal to twice your Overcharge to the highest HP enemy, and Shock equal to your Overcharge to the others.",
+      "name": "First Generation Transformer"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 452,
+      "rarity": "Elite",
+      "description": "If you've gained 30 or more Zeal this fight, at the start of every turn, Draw 2 & Discard 1.",
+      "name": "Solar Panel"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 453,
+      "rarity": "Elite",
+      "description": "If you end your turn with less than 5 Overcharge, upgrade 1 card from your deck. Otherwise, apply Shock 3 to all enemies.",
+      "name": "Perpetual Motion Device"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 454,
+      "rarity": "Elite",
+      "description": "Zeal 1 each time you play a non-Volatile Uncommon card. Zeal 2 each time you play a non-Volatile Rare card.",
+      "name": "Fabled Relic"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 455,
+      "rarity": "Elite",
+      "description": "Every 3rd X-cost card you play counts X as being 3 higher.",
+      "name": "Miracle Halberd"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Tempest",
+      "number": 456,
+      "rarity": "Elite",
+      "description": "The first time each turn you reach Zeal 8, Zeal 2 and Rage 25%.",
+      "name": "Apocalypse Trumpet"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 457,
+      "rarity": "Uncommon",
+      "description": "At the start of each turn, draw 1 more card but gain 1 less Energy.",
+      "name": "Nip of 'Drinking' Alcohol"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 458,
+      "rarity": "Uncommon",
+      "description": "The first time each turn you trigger a Red, Blue, Yellow or Purple Void Stone, get twice the effect.",
+      "name": "Jeweler's Loupe"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 459,
+      "rarity": "Uncommon",
+      "description": "The first time each turn you draw an Affliction, Block 5.",
+      "name": "Paper Talisman"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 460,
+      "rarity": "Rare",
+      "description": "At the start of your turn, draw 2 extra cards and suffer Hex 1.",
+      "name": "Monkey's Paw"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 461,
+      "rarity": "Rare",
+      "description": "At the start of each turn, gain 2 energy. At the end of each turn, lose 2 energy.",
+      "name": "Broken Shifter"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 462,
+      "rarity": "Elite",
+      "description": "When you end your turn with 10 or less Threat, your Threat stack doesn't trigger, leaving it for next turn.",
+      "name": "Liquid Membrane"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 463,
+      "rarity": "Elite",
+      "description": "Each time you play a card with a Void Stone, Block 1, Delay Block 1 and deal 1 damage to all enemies.",
+      "name": "Stone Sling"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 464,
+      "rarity": "Elite",
+      "description": "If you kept an Attack card in your hand from the last turn, Block 7. If you kept an Ability card in your hand from the last turn, Rage 50%. If you kept a Buff card in your hand from the last turn, gain 1 Energy.",
+      "name": "Tool Case"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 465,
+      "rarity": "Elite",
+      "description": "If you play a card without a Void Stone, charge this artifact. When you draw a non-stoned card, expend the charge to add a non-green Void Stone to it.",
+      "name": "Bezel Wire"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 466,
+      "rarity": "Common",
+      "description": "When you draw a card with Prayer Beads, draw 1 more.",
+      "name": "Bigger Beads"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 467,
+      "rarity": "Uncommon",
+      "description": "Cards you Foresee are moved to the top of your deck.",
+      "name": "Favoured Flags"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 468,
+      "rarity": "Elite",
+      "description": "The second card played each turn has Desync and Chain 1, allowing it to contribute to a different Chain type.",
+      "name": "Copy Cat"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 469,
+      "rarity": "Elite",
+      "description": "Follow-Up and Zen conditions on cards always count as met.",
+      "name": "Blindfold"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 470,
+      "rarity": "Elite",
+      "description": "The first time each enemy suffers Fatigue, they suffer 1 more.",
+      "name": "Smokey Censer"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 471,
+      "rarity": "Elite",
+      "description": "All Rigged cards have Chain 1.",
+      "name": "Winning Tile"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 472,
+      "rarity": "Elite",
+      "description": "For the first 3 turns of each battle, enter Zen when you hit 2 Chain instead of 3.",
+      "name": "Rice Balls"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 473,
+      "rarity": "Elite",
+      "description": "At the end of each turn, deal 1 damage to each enemy for every 8 Shii they have.",
+      "name": "Plum Blossom Needles"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 474,
+      "rarity": "Elite",
+      "description": "At the end of each turn, if only one enemy is alive, deal 2 Shii to them an amount of times equal to the battle round.",
+      "name": "Emei Soul Piercer"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Enlightened",
+      "number": 475,
+      "rarity": "Elite",
+      "description": "If you keep non-Affliction cards in your hand at the end of your turn, Foresee them.",
+      "name": "Dreamcatcher"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 476,
+      "rarity": "Common",
+      "description": "Each time an enemy dies, gain 4 Corruption.",
+      "name": "Obituary"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 477,
+      "rarity": "Common",
+      "description": "After playing a card, Soultithe 1 for each Threshold you failed to meet.",
+      "name": "Rubber Band"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 478,
+      "rarity": "Common",
+      "description": "Start each battle with Death Strike 1 and Rage 25%.",
+      "name": "Red Hot Chili Pepper"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 479,
+      "rarity": "Common",
+      "description": "The first time each battle you discard a card from your hand, Block 10 and apply Weak 1 to all enemies.",
+      "name": "Matador Cape"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 480,
+      "rarity": "Common",
+      "description": "At the start of turn 3, after drawing your hand, Recur 1.",
+      "name": "Trusty Rod"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 481,
+      "rarity": "Uncommon",
+      "description": "Thresholds always count as met.",
+      "name": "Silver Spoon"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 482,
+      "rarity": "Rare",
+      "description": "Each time you play or purge a card, gain 1 Corruption.",
+      "name": "Big Book of Law"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 483,
+      "rarity": "Rare",
+      "description": "At the start of each turn, Death Strike 1.",
+      "name": "Reaper's Right"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 484,
+      "rarity": "Rare",
+      "description": "Every 3rd time you play a card that does damage based on Corruption, deal 100% Corruption damage to all enemies.",
+      "name": "Executive Toy"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Daughter of the Void",
+      "number": 485,
+      "rarity": "Rare",
+      "description": "At the end of the turn, if you gained more than 12 Corruption, add 2 Void Coins to the top of your deck. Otherwise, gain 2 Corruption and apply Slow 1 to all enemies.",
+      "name": "Counterfeit"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Daughter of the Void",
+      "number": 486,
+      "rarity": "Elite",
+      "description": "If you start your turn with Death Strike, Rage 25% and gain 1 Corruption. The first time after playing a card that spends Death Strike each turn, Rage 25%.",
+      "name": "Acrylic Nails"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 518,
+      "rarity": "Common",
+      "description": "If you apply Slow (x) to an enemy, apply Weak (x) and Vulnerable (x) as well. The first time an enemy reinforcement spawns in each fight, apply Slow 1 to it.",
+      "name": "Bloody Bait"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 512,
+      "rarity": "Common",
+      "description": "The first time you're reduced to 0 HP, remove this item and heal back to 30%.",
+      "name": "In Emergency, Break Glass"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 510,
+      "rarity": "Uncommon",
+      "description": "Overcharge grants 2 Energy.",
+      "name": "Trusty Snack"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 118,
+      "rarity": "Common",
+      "description": "The first time you apply Bleed in a turn, Block 3.",
+      "name": "Blood Amulet"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 121,
+      "rarity": "Common",
+      "description": "At the start of your turn, apply Bleed 2 to a random enemy.",
+      "name": "Haemorrhage Shrooms"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 122,
+      "rarity": "Rare",
+      "description": "If an enemy has Bleed at the start of your turn, draw 1 card and apply Bleed 2 to all enemies.",
+      "name": "Four Leaf Clover"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 149,
+      "rarity": "Common",
+      "description": "Whenever you use a Potion, apply Bleed 8 to all enemies.",
+      "name": "Poisoning Kit"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "The Hidden",
+      "number": 505,
+      "rarity": "Uncommon",
+      "description": "The first time each turn you apply Bleed to an enemy, also apply Vulnerable 1.",
+      "name": "Thorny Bramble"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 503,
+      "rarity": "Elite",
+      "description": "Lower all Debuffs suffered by 1 for each left over Energy at the end of the turn.",
+      "name": "Holy Effigy"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 504,
+      "rarity": "Elite",
+      "description": "After winning a Battle, gain 100 Essence if it was Perfect. Otherwise, Heal 8.",
+      "name": "Coin of Good Fortune"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 506,
+      "rarity": "Elite",
+      "description": "Every 8th Ability card played will cost 0 Energy.",
+      "name": "Obsidian Crown"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 507,
+      "rarity": "Elite",
+      "description": "At the start of your turn, Block equal to the current Battle Round.",
+      "name": "Flame Shield"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 508,
+      "rarity": "Elite",
+      "description": "Every 10 cards played, deal 10 damage to all enemies.",
+      "name": "Torch of Triumph"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 509,
+      "rarity": "Elite",
+      "description": "At the start of each battle, lose 1 Energy and choose a card from your Deck to add to your hand.",
+      "name": "Discarded Keys"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 513,
+      "rarity": "Elite",
+      "description": "Each time you cast your Spell, increase this item by 1. When it reaches 3, Rage 50% and your Spell's cooldown will be reset.",
+      "name": "Stew of Bad Memories"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 514,
+      "rarity": "Elite",
+      "description": "Each time your deck is reshuffled, Block 10.",
+      "name": "Dead Man's Drop"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 515,
+      "rarity": "Elite",
+      "description": "Every 3rd Heavy card played will cost -3. The first time each Battle you play a Heavy card, Upgrade it and add a Red Void Stone to it.",
+      "name": "Crystal Lake Hand-me-down"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 516,
+      "rarity": "Elite",
+      "description": "Every 7th card played will cost 1 less Energy.",
+      "name": "Eldritch Blessing"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 517,
+      "rarity": "Elite",
+      "description": "Every 6th Attack card played is returned to your hand, instead of being discarded, Expelled or Destroyed.",
+      "name": "Like Clockwork"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 520,
+      "rarity": "Elite",
+      "description": "Each time you play a Buff card, Delay Block 10.",
+      "name": "Cultist Ward"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 521,
+      "rarity": "Elite",
+      "description": "Each time you kill a non-minion enemy, your Spell's cooldown will be reset.",
+      "name": "Bloody Ledger"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 522,
+      "rarity": "Elite",
+      "description": "After every second fight, you'll find a Potion.\nWhen you Brew a Potion, Delay Block 8.\nWhen you use a Belt Potion, Block 8.",
+      "name": "Keg of Lucky Rum"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 600,
+      "rarity": "",
+      "description": "Gain 1 Corruption when you Purge a card, and any Energy gained past your max turns into Corruption.\nYou can remove Void Stones from cards by Right Clicking the card in the Deck Manager.",
+      "name": "Void Manipulator"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 603,
+      "rarity": "",
+      "description": "At the start of each turn, if at Combo 0, Combo 1.\nStarting from Turn 4, your max Combo is increased by 1.",
+      "name": "Sneak Artist"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 606,
+      "rarity": "",
+      "description": "Every 3rd time you enter Zen, Draw 1. At the end of every EVEN turn, all enemies will suffer 1 Fatigue.",
+      "name": "Prayer Beads"
+    }
+  },
+  {
+    "model": "artifacts.Artifact",
+    "fields": {
+      "artifact_class": "Global",
+      "number": 607,
+      "rarity": "",
+      "description": "You have +1 Max Energy.\nWhen you start a turn at 5+ Overcharge, gain +1 Energy.\nWhen you start a turn at 15+ Overcharge, gain +2 Energy instead.\nLose 1 Overcharge for each Energy gained by Storm Brand.",
+      "name": "Storm Brand"
+    }
+  }
+]
