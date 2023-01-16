@@ -5,20 +5,11 @@ from .models import Keywords
 
 class KeywordSerializer(serializers.ModelSerializer):
 
-    # keywords = serializers.SerializerMethodField()
-
     class Meta:
         model = Keywords
         fields = [
-            'id', 'kNumber', 'name', 'description', 'keywords'
+            'id','name', 'description', 'keywords'
         ]
-
-    # def get_keywords(self, obj):
-    #     return [
-    #         Keywords.objects.filter(id=keyword).values_list('name', flat=True)
-    #         for keyword in obj.related_keywords
-    #     ]
-
 
 
 class KeywordDetailSerializer(KeywordSerializer):

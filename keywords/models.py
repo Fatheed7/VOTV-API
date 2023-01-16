@@ -6,7 +6,6 @@ class Keywords(models.Model):
     description = models.CharField(max_length=200)
     name = models.CharField(max_length=100)
     keywords = ArrayField(models.CharField(max_length=100, blank=True, null=True))
-    # related_keywords = ArrayField(models.CharField(max_length=100, blank=True, null=True))
 
     class Meta:
         verbose_name_plural = "Keywords"
