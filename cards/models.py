@@ -1,6 +1,5 @@
 from django.db import models
 from keywords.models import Keywords
-from sortedm2m.fields import SortedManyToManyField
 
 # Create your models here.
 
@@ -22,7 +21,7 @@ class Card(models.Model):
     cName = models.CharField(max_length=100)
     cEnergy = models.IntegerField()
     cEnergy_Upgrade = models.IntegerField()
-    keywords = SortedManyToManyField(Keywords, related_name='cards', blank=True)
+    keywords = models.ManyToManyField(Keywords, related_name='cards', blank=True)
 
 
 

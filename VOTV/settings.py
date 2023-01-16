@@ -53,8 +53,6 @@ INSTALLED_APPS = [
     'dj_rest_auth',
     'django.contrib.sites',
     'dj_rest_auth.registration',
-    'sortedm2m',
-    'sortedm2m_filter_horizontal_widget',
 
     'cards',
     'keywords',
