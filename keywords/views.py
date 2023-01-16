@@ -7,7 +7,7 @@ class KeywordList(generics.ListAPIView):
     serializer_class = KeywordSerializer
     queryset = Keywords.objects.all()
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['name', 'description']
+    filterset_fields = ['name', 'description', 'keywords']
 
 class KeywordDetail(generics.RetrieveAPIView):
     serializer_class = KeywordDetailSerializer

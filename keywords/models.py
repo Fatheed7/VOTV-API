@@ -3,7 +3,6 @@ from django.contrib.postgres.fields import ArrayField
 
 
 class Keywords(models.Model):
-    kNumber = models.IntegerField(null=True, blank=True)
     description = models.CharField(max_length=200)
     name = models.CharField(max_length=100)
     keywords = ArrayField(models.CharField(max_length=100, blank=True, null=True))
