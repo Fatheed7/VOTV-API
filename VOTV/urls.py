@@ -23,4 +23,5 @@ urlpatterns = [
     path("", include("cards.urls")),
     path("", include("keywords.urls")),
     path("", include("artifacts.urls")),
+    path("", include("spells.urls")),
 ]

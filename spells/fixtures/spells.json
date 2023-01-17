@@ -1,0 +1,426 @@
+[
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 1,
+      "name": "Blood Rush",
+      "description": "Apply Weak 2. Apply Vulnerable equal to Combo.",
+      "cooldown": 5,
+      "source": "Class",
+      "gameClass": "The Hidden",
+      "deck": "Bleed",
+      "keywords": ["Weak - Debuff", "Vulnerable - Debuff", "Combo"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 2,
+      "name": "Ghost Blade",
+      "description": "Combo 1 and add 1 Hidden Blade to your hand.",
+      "cooldown": 5,
+      "source": "Class",
+      "gameClass": "The Hidden",
+      "deck": "Blade",
+      "keywords": ["Combo"],
+      "relatedCards": [
+        {
+          "id": 97
+        }
+      ]
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 3,
+      "name": "From Dust",
+      "description": "Deal 14 damage. Slay: Heal 5, and, if you are at full HP, Block 5.",
+      "cooldown": 3,
+      "source": "Guardian",
+      "encounter": "Skeleton King",
+      "keywords": ["Slay", "Block"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 4,
+      "name": "Retaliate",
+      "description": "Gain Rage 50% for each creature currently planning an Attack action.",
+      "cooldown": 4,
+      "source": "Guardian",
+      "encounter": "The Birth Pit",
+      "keywords": ["Rage"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 5,
+      "name": "Curse!",
+      "description": "Sift 1. Gain 1 Corruption.",
+      "cooldown": 2,
+      "source": "Class",
+      "gameClass": "The Daughter of the Void",
+      "deck": "Corruption",
+      "keywords": ["Sift", "Corruption"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 10,
+      "name": "Curse Ward",
+      "description": "Gain Rage 25% a number of times equal to the number of Affliction cards currently in your Deck and Discard. Add 2 Banes to your Discard.",
+      "cooldown": 3,
+      "source": "Guardian",
+      "encounter": "The Swamp Mistress",
+      "keywords": ["Rage", "Discard"],
+      "relatedCards": [
+        {
+          "id": 951
+        }
+      ]
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 11,
+      "name": "Sunder",
+      "description": "Apply Vulnerable 3.",
+      "cooldown": 3,
+      "source": "Spell Child",
+      "keywords": ["Vulnerable - Debuff"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 13,
+      "name": "Cripple",
+      "description": "Apply Weak 3.",
+      "cooldown": 3,
+      "source": "Spell Child",
+      "keywords": ["Weak - Debuff"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 15,
+      "name": "Return",
+      "description": "Recur 1.",
+      "cooldown": 3,
+      "source": "Spell Child",
+      "keywords": ["Recur"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 16,
+      "name": "Energy Tap",
+      "description": "The next card you play this turn will cost 0 energy.",
+      "cooldown": 3,
+      "source": "Spell Child",
+      "keywords": [],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 18,
+      "name": "Sacrifice",
+      "description": "Rage 50%. Threshold 8: Death Strike 1.",
+      "cooldown": 4,
+      "source": "Class",
+      "gameClass": "The Daughter of the Void",
+      "deck": "Sacrifice",
+      "keywords": ["Rage", "Threshold", "Death Strike"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 19,
+      "name": "Nightmare Steed",
+      "description": "Add 2 Volatile Shield Walls to your hand.",
+      "cooldown": 3,
+      "source": "Guardian",
+      "encounter": "The Black Coach",
+      "keywords": ["Volatile"],
+      "relatedCards": [
+        {
+          "id": 6,
+          "volatile": true
+        }
+      ]
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 22,
+      "name": "Let's Pray",
+      "description": "Draw 3. Discard 3.",
+      "cooldown": 3,
+      "source": "Guardian",
+      "encounter": "Disciples of Straw",
+      "keywords": ["Discard"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 23,
+      "name": "Swarm",
+      "description": "Your next single-target card played trigger +1 times.",
+      "cooldown": 3,
+      "source": "Guardian",
+      "encounter": "The Bloodhive",
+      "keywords": [],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 25,
+      "name": "Weapon Switch",
+      "description": "Sift 1. Draw 1. Discard 1.",
+      "cooldown": 2,
+      "source": "Spell Child",
+      "keywords": ["Sift", "Discard"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 26,
+      "name": "Boiled Blood",
+      "description": "Suffer Burning 4. Gain Rage 75%.",
+      "cooldown": 3,
+      "source": "Spell Child",
+      "keywords": ["Burning", "Rage"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 28,
+      "name": "Bacon Bomb",
+      "description": "Discard your hand. Inflict 5 damage to all creatures and gain Delay Rage 25% for each card Discarded.",
+      "cooldown": 6,
+      "source": "Guardian",
+      "encounter": "Cursed Swine",
+      "keywords": ["Discard", "Delay Rage", "Rage"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 29,
+      "name": "Leverage",
+      "description": "Apply Weak 1 to all enemies. Deal 2 Shii, 3 times, to all enemies.",
+      "cooldown": 4,
+      "source": "Class",
+      "gameClass": "The Enlightened",
+      "deck": "Martial",
+      "keywords": ["Weak - Debuff", "Shii"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 30,
+      "name": "Focus",
+      "description": "Vision 1. Rage 25%.",
+      "cooldown": 3,
+      "source": "Class",
+      "gameClass": "The Enlightened",
+      "deck": "Mindfulness",
+      "keywords": ["Vision", "Rage"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 31,
+      "name": "Power Ward",
+      "description": "Delay Rage 50%. Overcharge 2.",
+      "cooldown": 4,
+      "source": "Guardian",
+      "encounter": "The Swamp Mistress",
+      "keywords": ["Delay Rage", "Rage", "Overcharge"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 32,
+      "name": "Flame Ward",
+      "description": "Suffer Burning 4. Block 6. Delay Block 10.",
+      "cooldown": 2,
+      "source": "Guardian",
+      "encounter": "The Swamp Mistress",
+      "keywords": ["Burning", "Block", "Delay Block"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 33,
+      "name": "Shield Ward",
+      "description": "Delay Block 20.",
+      "cooldown": 4,
+      "source": "Guardian",
+      "encounter": "The Swamp Mistress",
+      "keywords": ["Delay Block", "Block"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 34,
+      "name": "Spirit Ward",
+      "description": "Block 15. Heal 1.",
+      "cooldown": 4,
+      "source": "Guardian",
+      "encounter": "The Swamp Mistress",
+      "keywords": ["Block"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 35,
+      "name": "Accumulation",
+      "description": "Draw a card. Draw an extra card at the start of your next turn.",
+      "cooldown": 4,
+      "source": "Spell Child",
+      "keywords": [],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 36,
+      "name": "Quick Smith",
+      "description": "Draw 1. Upgrade all cards in hand for the rest of the Battle. Discard 1.",
+      "cooldown": 5,
+      "source": "Spell Child",
+      "keywords": ["Discard"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 37,
+      "name": "Rigged Game",
+      "description": "Rig a card in your discard. It is also upgraded for the rest of the Battle.",
+      "cooldown": 2,
+      "source": "Spell Child",
+      "keywords": [],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 38,
+      "name": "Weed Out",
+      "description": "Sift 4.",
+      "cooldown": 3,
+      "source": "Spell Child",
+      "keywords": ["Sift"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 39,
+      "name": "Refine",
+      "description": "Recur the top card. It is also upgraded for the rest of the Battle.",
+      "cooldown": 3,
+      "source": "Spell Child",
+      "keywords": ["Recur"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 40,
+      "name": "Sedate ",
+      "description": "Apply Slow 2.",
+      "cooldown": 2,
+      "source": "Spell Child",
+      "keywords": ["Slow - Debuff"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 41,
+      "name": "Invert",
+      "description": "Block X, equal to the number of cards in Discard. Swap your Deck and Discard.",
+      "cooldown": 4,
+      "source": "Spell Child",
+      "keywords": ["Block", "Discard"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 42,
+      "name": "Warding Maul",
+      "description": "Inflict X damage and Block X, equal to your Zeal.",
+      "cooldown": 4,
+      "source": "Class",
+      "gameClass": "The Tempest",
+      "deck": "Thunder",
+      "keywords": ["Block", "Zeal"],
+      "relatedCards": []
+    }
+  },
+  {
+    "model": "spells.Spell",
+    "fields": {
+      "id": 43,
+      "name": "Energize",
+      "description": "Overcharge 1 and Zeal 2.",
+      "cooldown": 4,
+      "source": "Class",
+      "gameClass": "The Tempest",
+      "deck": "Lightning",
+      "keywords": ["Overcharge", "Zeal"],
+      "relatedCards": []
+    }
+  }
+]

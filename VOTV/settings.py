@@ -69,6 +69,7 @@ INSTALLED_APPS = [
     'cards',
     'keywords',
     'artifacts',
+    'spells',
 ]
 
 SITE_ID = 1
