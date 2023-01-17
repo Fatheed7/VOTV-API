@@ -7,4 +7,4 @@ class CardList(generics.ListAPIView):
     serializer_class = CardSerializer
     queryset = Card.objects.all()
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['cName', 'cNumber', 'cDesc', 'cDesc_Upgrade', 'cRarity', 'cType', 'cEnergy', 'cEnergy_Upgrade', 'keywords']
+    filterset_fields = ['name', 'gameClass', 'rarity']

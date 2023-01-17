@@ -1,25 +1,16 @@
 from django.db import models
+from django.contrib.postgres.fields import ArrayField
 
 class Artifact(models.Model):
-    artifact_class_CHOICES = [
-        ('The Hidden', 'The Hidden'),
-        ('The Tempest', 'The Tempest'),
-        ('The Enlightened', 'The Enlightened'),
-        ('The Daughter of the Void', 'The Daughter of the Void'),
-        ('Global', 'Global'),
-    ]
-    rarity_CHOICES = [
-        ('Starter', 'Starter'),
-        ('Common', 'Common'),
-        ('Uncommon', 'Uncommon'),
-        ('Rare', 'Rare'),
-        ('Elite', 'Elite'),
-    ]
-    artifact_class = models.CharField(max_length=100, choices=artifact_class_CHOICES)
-    number = models.IntegerField()
-    rarity = models.CharField(max_length=20, choices=rarity_CHOICES)
-    name = models.CharField(max_length=100)
-    description = models.CharField(max_length=200)
+    id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=100, null=True) 
+    gameClass = models.CharField(max_length=100, null=True)
+    rarity = models.CharField(max_length=100, null=True)
+    description = models.CharField(max_length=400, null=True)
+    keywords = ArrayField(models.CharField(max_length=100, blank=True, null=True), null=True)
+    relatedCards = ArrayField(models.CharField(max_length=100, blank=True, null=True), null=True)
+    volatile = models.BooleanField(default=False, null=True)
+    upgraded = models.BooleanField(default=False, null=True)
 
 
     class Meta:

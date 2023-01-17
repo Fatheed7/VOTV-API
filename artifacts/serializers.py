@@ -7,7 +7,7 @@ class ArtifactSerializer(serializers.ModelSerializer):
     class Meta:
         model = Artifact
         fields = [
-            'number', 'name', 'description', 'rarity', 'artifact_class'
+            'id', 'name', 'gameClass', 'rarity', 'description', 'keywords', 'relatedCards'
         ]
 
 

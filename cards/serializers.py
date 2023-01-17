@@ -7,8 +7,7 @@ class CardSerializer(serializers.ModelSerializer):
     class Meta:
         model = Card
         fields = [
-            'cName', 'cNumber', 'cDesc', 'cDesc_Upgrade', 'cRarity', 'cType',
-            'cEnergy', 'cEnergy_Upgrade', 'keywords'
+            'id', 'name', 'gameClass', 'type', 'rarity', 'energy', 'upgradedEnergy', 'description', 'upgradedDescription', 'keywords', 'relatedCards', 'upgradedKeywords', 'upgradedRelatedCards'
         ]
 
 

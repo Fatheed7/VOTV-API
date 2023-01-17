@@ -7,7 +7,7 @@ class ArtifactList(generics.ListAPIView):
     serializer_class = ArtifactSerializer
     queryset = Artifact.objects.all()
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['name', 'description', 'rarity', 'artifact_class']
+    filterset_fields = ['name', 'gameClass', 'rarity', 'description']
 
 class ArtifactDetail(generics.RetrieveAPIView):
     serializer_class = ArtifactDetailSerializer
