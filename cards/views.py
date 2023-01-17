@@ -8,3 +8,8 @@ class CardList(generics.ListAPIView):
     queryset = Card.objects.all()
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ['name', 'gameClass', 'rarity']
+
+class SpellDetail(generics.RetrieveAPIView):
+    serializer_class = CardDetailSerializer
+    queryset = Card.objects.all()
+    lookup_field = 'id'
