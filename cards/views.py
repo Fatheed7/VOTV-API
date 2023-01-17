@@ -9,7 +9,7 @@ class CardList(generics.ListAPIView):
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ['name', 'gameClass', 'rarity']
 
-class SpellDetail(generics.RetrieveAPIView):
+class CardDetail(generics.RetrieveAPIView):
     serializer_class = CardDetailSerializer
     queryset = Card.objects.all()
     lookup_field = 'id'

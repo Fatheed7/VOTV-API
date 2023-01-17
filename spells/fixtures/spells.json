@@ -81,11 +81,7 @@
       "source": "Guardian",
       "encounter": "The Swamp Mistress",
       "keywords": ["Rage", "Discard"],
-      "relatedCards": [
-        {
-          "id": 951
-        }
-      ]
+      "relatedCards": ["Bane"]
     }
   },
   {
@@ -160,12 +156,7 @@
       "source": "Guardian",
       "encounter": "The Black Coach",
       "keywords": ["Volatile"],
-      "relatedCards": [
-        {
-          "id": 6,
-          "volatile": true
-        }
-      ]
+      "relatedCards": ["Shield Wall - Volatile"]
     }
   },
   {
