@@ -92,11 +92,7 @@
       "rarity": "Common",
       "description": "Each time you draw a Bane, Draw 1.",
       "keywords": [],
-      "relatedCards": [
-        {
-          "id": 951
-        }
-      ]
+      "relatedCards": ["Bane"]
     }
   },
   {
@@ -156,17 +152,7 @@
       "rarity": "Uncommon",
       "description": "Each time you play a Slash or Draw Blood, add 1 Hidden Blade to your hand.",
       "keywords": [],
-      "relatedCards": [
-        {
-          "id": 1
-        },
-        {
-          "id": 28
-        },
-        {
-          "id": 97
-        }
-      ]
+      "relatedCards": ["Slash", "Draw Blood", "Hidden Blade"]
     }
   },
   {
@@ -202,11 +188,7 @@
       "rarity": "Rare",
       "description": "At the start of each EVEN turn, add 3 Hidden Blades to your hand.",
       "keywords": [],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "relatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -302,11 +284,7 @@
       "rarity": "Common",
       "description": "Whenever you suffer Daze cards, Delay Block 8.",
       "keywords": ["Delay Block", "Block"],
-      "relatedCards": [
-        {
-          "id": 950
-        }
-      ]
+      "relatedCards": ["Daze"]
     }
   },
   {
@@ -342,11 +320,7 @@
       "rarity": "Uncommon",
       "description": "At the start of each fight, 1 Celerity will be added to your Deck.",
       "keywords": [],
-      "relatedCards": [
-        {
-          "id": 168
-        }
-      ]
+      "relatedCards": ["Celerity"]
     }
   },
   {
@@ -358,12 +332,7 @@
       "rarity": "Elite",
       "description": "If you start a turn with 3 Energy or less, add a Volatile Side Step to your hand.",
       "keywords": ["Volatile"],
-      "relatedCards": [
-        {
-          "id": 126,
-          "volatile": true
-        }
-      ]
+      "relatedCards": ["Side Step - Volatile"]
     }
   },
   {
@@ -1215,12 +1184,7 @@
       "rarity": "Elite",
       "description": "Each time you start a turn with 20 or more Corruption, add 1 Volatile Soultax to your hand.",
       "keywords": ["Corruption", "Volatile"],
-      "relatedCards": [
-        {
-          "id": 163,
-          "volatile": true
-        }
-      ]
+      "relatedCards": ["Soultax - Volatile"]
     }
   },
   {
@@ -1478,11 +1442,7 @@
       "rarity": "Elite",
       "description": "When you play your 4th Attack in one turn, gain 2 Hidden Blades.",
       "keywords": [],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "relatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -1494,11 +1454,7 @@
       "rarity": "Elite",
       "description": "Every 12 Attack cards played, gain 3 Hidden Blades.",
       "keywords": [],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "relatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -2110,16 +2066,7 @@
       "rarity": "Rare",
       "description": "If you have less than 3 attacks at the start of your turn, add a Volatile Stability to hand. If you have less than 3 abilities at the start of your turn, add a Volatile Clarity to hand.",
       "keywords": ["Volatile"],
-      "relatedCards": [
-        {
-          "id": 243,
-          "volatile": true
-        },
-        {
-          "id": 213,
-          "volatile": true
-        }
-      ]
+      "relatedCards": ["Stability - Volatile", "Clarity - Volatile"]
     }
   },
   {
@@ -2155,12 +2102,7 @@
       "rarity": "Elite",
       "description": "The first time each turn you play an Attack card, add a Volatile Light It Up to your hand.",
       "keywords": ["Volatile"],
-      "relatedCards": [
-        {
-          "id": 106,
-          "volatile": true
-        }
-      ]
+      "relatedCards": ["Light It Up - Volatile"]
     }
   },
   {
@@ -2263,11 +2205,7 @@
       "rarity": "Elite",
       "description": "Add 10 Void Coins to Discard at the start of each battle.",
       "keywords": ["Discard"],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "relatedCards": ["Void Coin"]
     }
   },
   {
@@ -2303,11 +2241,7 @@
       "rarity": "Elite",
       "description": "The first time each turn you Expel a card, add 2 Void Coins to Discard.",
       "keywords": ["Expel", "Discard"],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "relatedCards": ["Void Coin"]
     }
   },
   {
@@ -2319,11 +2253,7 @@
       "rarity": "Elite",
       "description": "After you finish Sifting 1 or more cards, add a Void Coin to Discard.",
       "keywords": ["Sift", "Discard"],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "relatedCards": ["Void Coin"]
     }
   },
   {
@@ -2347,11 +2277,7 @@
       "rarity": "Rare",
       "description": "At the start of each turn, add a Void Coin to hand.",
       "keywords": [],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "relatedCards": ["Void Coin"]
     }
   },
   {
@@ -2603,13 +2529,7 @@
       "rarity": "Uncommon",
       "description": "Each time you pay 4 or more energy for a card, add an Upgraded Volatile Clashing Steel to your hand.",
       "keywords": ["Volatile"],
-      "relatedCards": [
-        {
-          "id": 366,
-          "upgraded": true,
-          "volatile": true
-        }
-      ]
+      "relatedCards": ["Clashing Steel - Volatile - Upgraded"]
     }
   },
   {
@@ -2681,11 +2601,7 @@
       "rarity": "Uncommon",
       "description": "Each turn, the first time you spend Combo, add 1 Hidden Blade to hand.",
       "keywords": ["Combo"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "relatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -2781,14 +2697,7 @@
       "rarity": "Elite",
       "description": "Every 5th time you generate a Hidden Blade or Silent Shiv, Rage 50%.",
       "keywords": ["Rage"],
-      "relatedCards": [
-        {
-          "id": 97
-        },
-        {
-          "id": 302
-        }
-      ]
+      "relatedCards": ["Hidden Blade", "Silent Shiv"]
     }
   },
   {
@@ -3328,11 +3237,7 @@
       "rarity": "Rare",
       "description": "At the end of the turn, if you gained more than 12 Corruption, add 2 Void Coins to the top of your deck. Otherwise, gain 2 Corruption and apply Slow 1 to all enemies.",
       "keywords": ["Corruption", "Slow - Debuff"],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "relatedCards": ["Void Coin"]
     }
   },
   {

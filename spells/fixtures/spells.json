@@ -24,11 +24,7 @@
       "gameClass": "The Hidden",
       "deck": "Blade",
       "keywords": ["Combo"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "relatedCards": ["Hidden Blade"]
     }
   },
   {

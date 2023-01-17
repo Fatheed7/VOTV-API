@@ -17,4 +17,4 @@ class CardDetailSerializer(CardSerializer):
     Serializer for the Comment model used in Detail view
     Post is a read only field so that we dont have to set it on each update
     """
-    card = serializers.ReadOnlyField(source='card.id')
+    id = serializers.ReadOnlyField(source='card.id')

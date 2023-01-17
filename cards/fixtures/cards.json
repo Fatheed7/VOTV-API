@@ -130,17 +130,9 @@
       "description": "Block 7. Gain 1 Hidden Blade.",
       "upgradedDescription": "Block 10. Gain 1 Hidden Blade.",
       "keywords": ["Block"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blade"],
       "upgradedKeywords": ["Block"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -172,17 +164,9 @@
       "description": "Deal 24 damage. Suffer 1 Daze.",
       "upgradedDescription": "Deal 32 damage. Suffer 1 Daze.",
       "keywords": [],
-      "relatedCards": [
-        {
-          "id": 950
-        }
-      ],
+      "relatedCards": ["Daze"],
       "upgradedKeywords": [],
-      "upgradedRelatedCards": [
-        {
-          "id": 950
-        }
-      ]
+      "upgradedRelatedCards": ["Daze"]
     }
   },
   {
@@ -350,17 +334,9 @@
       "description": "Add an amount of Hidden Blades equal to current Energy. Expel.",
       "upgradedDescription": "Gain 1 Energy. Add an amount of Hidden Blades equal to current Energy. Expel.",
       "keywords": ["Expel"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blade"],
       "upgradedKeywords": ["Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -409,17 +385,9 @@
       "description": "Gain 1 Hidden Blade. Draw 2. Discard 2.",
       "upgradedDescription": "Gain 1 Hidden Blade. Draw 3. Discard 3.",
       "keywords": ["Discard"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blade"],
       "upgradedKeywords": ["Discard"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -434,18 +402,9 @@
       "description": "Deal 4 damage. Add a Silent Shiv to hand.",
       "upgradedDescription": "Deal 4 damage. Add an upgraded Silent Shiv to hand.",
       "keywords": [],
-      "relatedCards": [
-        {
-          "id": 302
-        }
-      ],
+      "relatedCards": ["Silent Shiv"],
       "upgradedKeywords": [],
-      "upgradedRelatedCards": [
-        {
-          "id": 302,
-          "upgraded": true
-        }
-      ]
+      "upgradedRelatedCards": ["Silent Shiv - Upgraded"]
     }
   },
   {
@@ -477,11 +436,7 @@
       "description": "Rage 25%. Gain 1 Hidden Blade. Swift. Inert.",
       "upgradedEnergy": 0,
       "keywords": ["Rage", "Swift", "Inert"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "relatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -513,17 +468,9 @@
       "description": "Deal 13 damage. Opener: Gain 2 Hidden Blades.",
       "upgradedDescription": "Deal 17 damage. Opener: Gain 3 Hidden Blades.",
       "keywords": ["Opener"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blade"],
       "upgradedKeywords": ["Opener"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -538,17 +485,9 @@
       "description": "Discard hand. Gain that many +1 Hidden Blades.",
       "upgradedDescription": "Discard hand. Gain that many +2 Hidden Blades.",
       "keywords": ["Discard"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blade"],
       "upgradedKeywords": ["Discard"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -563,17 +502,9 @@
       "description": "Deal 9 damage. Gain 1 Hidden Blade. Swift.",
       "upgradedDescription": "Deal 12 damage. Gain 1 Hidden Blade. Swift.",
       "keywords": ["Swift"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blade"],
       "upgradedKeywords": ["Swift"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -621,23 +552,9 @@
       "upgradedEnergy": 3,
       "upgradedDescription": "All Hidden Blades and Silent Shivs will Trigger +2. Expel.",
       "keywords": ["Trigger", "Expel"],
-      "relatedCards": [
-        {
-          "id": 97
-        },
-        {
-          "id": 302
-        }
-      ],
+      "relatedCards": ["Hidden Blade", "Silent Shiv"],
       "upgradedKeywords": ["Trigger", "Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        },
-        {
-          "id": 302
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade", "Silent Shiv"]
     }
   },
   {
@@ -880,17 +797,9 @@
       "upgradedEnergy": 3,
       "upgradedDescription": "At the start of each turn, gain 2 Hidden Blades. Expel.",
       "keywords": ["Expel"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blade"],
       "upgradedKeywords": ["Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -1008,19 +917,9 @@
       "description": "Gain 3 Volatile Light It Up. Expel.",
       "upgradedDescription": "Gain 5 Volatile Light It Up. Expel. Purge: Gain 1 Volatile Light It Up.",
       "keywords": ["Volatile", "Expel"],
-      "relatedCards": [
-        {
-          "id": 106,
-          "volatile": true
-        }
-      ],
+      "relatedCards": ["Light It Up - Volatile"],
       "upgradedKeywords": ["Volatile", "Expel", "Purge"],
-      "upgradedRelatedCards": [
-        {
-          "id": 106,
-          "volatile": true
-        }
-      ]
+      "upgradedRelatedCards": ["Light It Up - Volatile"]
     }
   },
   {
@@ -1035,19 +934,9 @@
       "description": "Gain 3 Volatile Smash. Expel.",
       "upgradedDescription": "Gain 3 Volatile Smash. Expel. Purge: Gain 1 Volatile Smash.",
       "keywords": ["Volatile", "Expel"],
-      "relatedCards": [
-        {
-          "id": 2,
-          "volatile": true
-        }
-      ],
+      "relatedCards": ["Smash - Volatile"],
       "upgradedKeywords": ["Volatile", "Expel", "Purge"],
-      "upgradedRelatedCards": [
-        {
-          "id": 2,
-          "volatile": true
-        }
-      ]
+      "upgradedRelatedCards": ["Smash - Volatile"]
     }
   },
   {
@@ -1113,17 +1002,9 @@
       "description": "This turn, when an enemy takes damage, apply Bleed 1. Add 1 Hidden Blade.",
       "upgradedDescription": "This turn, when an enemy takes damage, apply Bleed 1. Add 2 Hidden Blades.",
       "keywords": ["Bleed - Debuff"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blade"],
       "upgradedKeywords": ["Bleed - Debuff"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -2580,17 +2461,9 @@
       "description": "Draw 1. Discard 1. Add a Void Coin to Deck.",
       "upgradedDescription": "Draw 2. Discard 2. Add a Void Coin to Deck.",
       "keywords": ["Discard"],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ],
+      "relatedCards": ["Void Coin"],
       "upgradedKeywords": ["Discard"],
-      "upgradedRelatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "upgradedRelatedCards": ["Void Coin"]
     }
   },
   {
@@ -2605,17 +2478,9 @@
       "description": "Sift 1. Add a Void Coin to Deck. Discard: Sift 1.",
       "upgradedDescription": "Sift 2. Add a Void Coin to Deck. Discard: Sift 2.",
       "keywords": ["Sift", "Discard"],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ],
+      "relatedCards": ["Void Coin"],
       "upgradedKeywords": ["Sift", "Discard"],
-      "upgradedRelatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "upgradedRelatedCards": ["Void Coin"]
     }
   },
   {
@@ -4415,27 +4280,12 @@
       "description": "Effects that add Hidden Blades add Upgraded Silent Shivs instead. Expel.",
       "upgradedDescription": "Effects that add Hidden Blades or Silent Shivs add Upgraded Silent Shivs instead. Expel.",
       "keywords": ["Expel"],
-      "relatedCards": [
-        {
-          "id": 97
-        },
-        {
-          "id": 302,
-          "upgraded": true
-        }
-      ],
+      "relatedCards": ["Hidden Blades", "Silent Shiv - Upgraded"],
       "upgradedKeywords": ["Expel"],
       "upgradedRelatedCards": [
-        {
-          "id": 97
-        },
-        {
-          "id": 302
-        },
-        {
-          "id": 302,
-          "upgraded": true
-        }
+        "Hidden Blades",
+        "Silent Shiv",
+        "Silent Shiv - Upgraded"
       ]
     }
   },
@@ -4551,17 +4401,9 @@
       "description": "Block 8. Add 1 Void Coin to Discard.",
       "upgradedDescription": "Block 10. Add 2 Void Coins to Discard.",
       "keywords": ["Block", "Discard"],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ],
+      "relatedCards": ["Void Coin"],
       "upgradedKeywords": ["Block", "Discard"],
-      "upgradedRelatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "upgradedRelatedCards": ["Void Coin"]
     }
   },
   {
@@ -4576,17 +4418,9 @@
       "description": "Add 2 Void Coins to Discard. Sift 2 random Afflictions.",
       "upgradedDescription": "Add 2 Void Coins to Discard. Sift 2 random Afflictions. Sift 1.",
       "keywords": ["Discard", "Sift"],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ],
+      "relatedCards": ["Void Coin"],
       "upgradedKeywords": ["Discard", "Sift"],
-      "upgradedRelatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "upgradedRelatedCards": ["Void Coin"]
     }
   },
   {
@@ -4635,17 +4469,9 @@
       "description": "Apply 1 Vulnerable. Add 1 Void Coin to Discard. Rebound.",
       "upgradedDescription": "Apply 2 Vulnerable. Add 1 Void Coin to Discard. Rebound.",
       "keywords": ["Vulnerable - Debuff", "Discard", "Rebound"],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ],
+      "relatedCards": ["Void Coin"],
       "upgradedKeywords": ["Vulnerable - Debuff", "Discard", "Rebound"],
-      "upgradedRelatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "upgradedRelatedCards": ["Void Coin"]
     }
   },
   {
@@ -4660,17 +4486,9 @@
       "description": "Deal 1 Damage. For each damage dealt, add 2 Void Coins to Discard.",
       "upgradedDescription": "Deal 1 Damage. For each damage dealt, add 2 Void Coins to Deck.",
       "keywords": ["Discard"],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ],
+      "relatedCards": ["Void Coin"],
       "upgradedKeywords": [],
-      "upgradedRelatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "upgradedRelatedCards": ["Void Coin"]
     }
   },
   {
@@ -4702,17 +4520,9 @@
       "description": "Block 4. Discard: Block 6. Purge: Add a Void Coin to Discard.",
       "upgradedDescription": "Block 6. Discard: Block 8. Purge: Add a Void Coin to Deck.",
       "keywords": ["Block", "Discard", "Purge"],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ],
+      "relatedCards": ["Void Coin"],
       "upgradedKeywords": ["Block", "Discard", "Purge"],
-      "upgradedRelatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "upgradedRelatedCards": ["Void Coin"]
     }
   },
   {
@@ -4759,17 +4569,9 @@
       "description": "Add 3 Void Coins to hand.",
       "upgradedDescription": "Add 3 Void Coins to hand, and 1 to Discard.",
       "keywords": [],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ],
+      "relatedCards": ["Void Coin"],
       "upgradedKeywords": ["Discard"],
-      "upgradedRelatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "upgradedRelatedCards": ["Void Coin"]
     }
   },
   {
@@ -4884,17 +4686,9 @@
       "description": "Add Who Thrives in Evil to Discard. Expel.",
       "upgradedDescription": "Add Who Thrives in Evil to Deck. Expel.",
       "keywords": ["Discard", "Expel"],
-      "relatedCards": [
-        {
-          "id": 340
-        }
-      ],
+      "relatedCards": ["Who Thrives in Evil"],
       "upgradedKeywords": ["Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 340
-        }
-      ]
+      "upgradedRelatedCards": ["Who Thrives in Evil"]
     }
   },
   {
@@ -4909,17 +4703,9 @@
       "description": "Add Kingdom Comes to Discard. Expel.",
       "upgradedDescription": "Add Kingdom Comes to Deck. Expel.",
       "keywords": ["Discard", "Expel"],
-      "relatedCards": [
-        {
-          "id": 341
-        }
-      ],
+      "relatedCards": ["Kingdom Comes"],
       "upgradedKeywords": ["Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 341
-        }
-      ]
+      "upgradedRelatedCards": ["Kingdom Comes"]
     }
   },
   {
@@ -6477,18 +6263,9 @@
       "description": "Shuffle a Celerity into your deck. Swift. Expel.",
       "upgradedDescription": "Shuffle an upgraded Celerity into your deck. Swift. Expel.",
       "keywords": ["Swift", "Expel"],
-      "relatedCards": [
-        {
-          "id": 168
-        }
-      ],
+      "relatedCards": ["Celerity"],
       "upgradedKeywords": ["Swift", "Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 168,
-          "upgraded": true
-        }
-      ]
+      "upgradedRelatedCards": ["Celerity - Upgraded"]
     }
   },
   {
@@ -6503,17 +6280,9 @@
       "description": "Deal 8 damage. Combo 1. Discard: Gain 1 Hidden Blade.",
       "upgradedDescription": "Deal 12 damage. Combo 1. Discard or Purge: Gain 1 Hidden Blade.",
       "keywords": ["Combo", "Discard"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blade"],
       "upgradedKeywords": ["Combo", "Discard", "Purge"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -6528,17 +6297,9 @@
       "description": "Deal 5 damage. Gain 1 Hidden Blade. Clot 3: Trigger +1.",
       "upgradedDescription": "Deal 8 damage. Gain 1 Hidden Blade. Clot 2: Trigger +1.",
       "keywords": ["Clot", "Trigger"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blade"],
       "upgradedKeywords": ["Clot", "Trigger"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -6570,17 +6331,9 @@
       "description": "Gain 1 Silent Shiv. Sift 1. If the card you Sift cost 2+, gain 1 Silent Shiv.",
       "upgradedDescription": "Gain 1 Silent Shiv. Sift 2. If a card you Sift cost 2+, gain 1 Silent Shiv.",
       "keywords": ["Sift"],
-      "relatedCards": [
-        {
-          "id": 302
-        }
-      ],
+      "relatedCards": ["Silent Shiv"],
       "upgradedKeywords": ["Sift"],
-      "upgradedRelatedCards": [
-        {
-          "id": 302
-        }
-      ]
+      "upgradedRelatedCards": ["Silent Shiv"]
     }
   },
   {
@@ -6595,17 +6348,9 @@
       "description": "Combo 2. Opener: Gain 2 Hidden Blades and Expel.",
       "upgradedDescription": "Combo 2. Rigged. Opener: Gain 2 Hidden Blades and Expel.",
       "keywords": ["Combo", "Opener", "Expel"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blades"],
       "upgradedKeywords": ["Combo", "Rigged", "Opener", "Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blades"]
     }
   },
   {
@@ -6620,17 +6365,9 @@
       "description": "Clot 8: Gain 3 Silent Shivs.",
       "upgradedDescription": "Clot 5: Gain 3 Silent Shivs.",
       "keywords": ["Clot"],
-      "relatedCards": [
-        {
-          "id": 302
-        }
-      ],
+      "relatedCards": ["Silent Shiv"],
       "upgradedKeywords": ["Clot"],
-      "upgradedRelatedCards": [
-        {
-          "id": 302
-        }
-      ]
+      "upgradedRelatedCards": ["Silent Shiv"]
     }
   },
   {
@@ -6662,17 +6399,9 @@
       "description": "Rage 50%. Gain 2 Hidden Blades.",
       "upgradedDescription": "Rage 100%. Gain 2 Hidden Blades.",
       "keywords": ["Rage"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blade"],
       "upgradedKeywords": ["Rage"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -6726,22 +6455,14 @@
         "Weak - Debuff",
         "Slow - Debuff"
       ],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blade"],
       "upgradedKeywords": [
         "Block",
         "Vulnerable - Debuff",
         "Weak - Debuff",
         "Slow - Debuff"
       ],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -6756,17 +6477,9 @@
       "description": "Gain 3 Hidden Blades. Discard 1. Ghost. Inert.",
       "upgradedDescription": "Gain 3 Hidden Blades. Discard 1. Ghost.",
       "keywords": ["Discard", "Ghost", "Inert"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blade"],
       "upgradedKeywords": ["Discard", "Ghost"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -6864,22 +6577,14 @@
       "description": "Apply Weak 1 and Slow 1 to all enemies. Add Manifest to Discard. Expel.",
       "upgradedDescription": "Apply Weak 2 and Slow 1 to all enemies. Add Manifest to Discard. Expel.",
       "keywords": ["Weak - Debuff", "Slow - Debuff", "Discard", "Expel"],
-      "relatedCards": [
-        {
-          "id": 456
-        }
-      ],
+      "relatedCards": ["Manifest"],
       "upgradedKeywords": [
         "Weak - Debuff",
         "Slow - Debuff",
         "Discard",
         "Expel"
       ],
-      "upgradedRelatedCards": [
-        {
-          "id": 456
-        }
-      ]
+      "upgradedRelatedCards": ["Manifest"]
     }
   },
   {
@@ -6945,17 +6650,9 @@
       "description": "Deal 7 Shii. Sift 1. If the card you Sift was an Affliction, Expel it and add Chant to Deck.",
       "upgradedDescription": "Deal 11 Shii. Sift 1. If the card you Sift was an Affliction, Expel it and add Chant to Deck.",
       "keywords": ["Shii", "Sift", "Expel"],
-      "relatedCards": [
-        {
-          "id": 347
-        }
-      ],
+      "relatedCards": ["Chant"],
       "upgradedKeywords": ["Shii", "Sift", "Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 347
-        }
-      ]
+      "upgradedRelatedCards": ["Chant"]
     }
   },
   {
@@ -6987,17 +6684,9 @@
       "description": "Block 14. Opener: Expel and add 2 Void Coins to Deck.",
       "upgradedDescription": "Block 19. Opener: Expel and add 3 Void Coins to Deck.",
       "keywords": ["Block", "Opener", "Expel"],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ],
+      "relatedCards": ["Void Coin"],
       "upgradedKeywords": ["Block", "Opener", "Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "upgradedRelatedCards": ["Void Coin"]
     }
   },
   {
@@ -7012,17 +6701,9 @@
       "description": "Reduce Soultithe by up to 3, add a Void Coin to Deck for each. Discard: Soultithe 2.",
       "upgradedDescription": "Reduce Soultithe by up to 4, add a Void Coin to Deck for each. Discard: Soultithe 3.",
       "keywords": ["Soultithe", "Discard"],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ],
+      "relatedCards": ["Void Coin"],
       "upgradedKeywords": ["Soultithe", "Discard"],
-      "upgradedRelatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "upgradedRelatedCards": ["Void Coin"]
     }
   },
   {
@@ -7054,17 +6735,9 @@
       "description": "Soultithe 3. Add a Void Coin to Discard. Threshold 4: Add 2 Void Coins to Deck. Threshold 8: Draw 1 & Discard 1.",
       "upgradedDescription": "Soultithe 4. Add a Void Coin to Discard. Threshold 4: Add 2 Void Coins to Deck. Threshold 8: Draw 1 & Discard 1.",
       "keywords": ["Soultithe", "Discard", "Threshold"],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ],
+      "relatedCards": ["Void Coin"],
       "upgradedKeywords": ["Soultithe", "Discard", "Threshold"],
-      "upgradedRelatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "upgradedRelatedCards": ["Void Coin"]
     }
   },
   {
@@ -7079,18 +6752,9 @@
       "description": "Deal 10 damage. Add a Yellow Void Stone to the next non-stoned card drawn. Add Mens Rea to Discard. Expel.",
       "upgradedDescription": "Deal 10 damage. Add a Yellow Void Stone to the next 2 non-stoned cards drawn. Add an Upgraded Mens Rea to Discard. Expel.",
       "keywords": ["Discard", "Expel"],
-      "relatedCards": [
-        {
-          "id": 466
-        }
-      ],
+      "relatedCards": ["Mens Rea"],
       "upgradedKeywords": ["Discard", "Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 466,
-          "upgraded": true
-        }
-      ]
+      "upgradedRelatedCards": ["Mens Rea - Upgraded"]
     }
   },
   {
@@ -7105,18 +6769,9 @@
       "description": "Block 10. Add a Red Void Stone to the next non-stoned card drawn. Add Actus Reus to Discard. Expel.",
       "upgradedDescription": "Block 10. Add a Red Void Stone to the next 2 non-stoned cards drawn. Add an Upgraded Actus Reus to Discard. Expel.",
       "keywords": ["Block", "Discard", "Expel"],
-      "relatedCards": [
-        {
-          "id": 465
-        }
-      ],
+      "relatedCards": ["Actus Reus"],
       "upgradedKeywords": ["Block", "Discard", "Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 465,
-          "upgraded": true
-        }
-      ]
+      "upgradedRelatedCards": ["Actus Reus - Upgraded"]
     }
   },
   {
@@ -7260,17 +6915,9 @@
       "description": "Deal 125% Corruption damage. Add 1 Void Coin to hand, deck and discard. Expel.",
       "upgradedDescription": "Deal 125% Corruption damage. Add 1 Void Coin to hand, deck and discard. Gain 3 Corruption. Expel.",
       "keywords": ["Corruption", "Expel"],
-      "relatedCards": [
-        {
-          "id": 960
-        }
-      ],
+      "relatedCards": ["Void Coin"],
       "upgradedKeywords": ["Corruption", "Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 960
-        }
-      ]
+      "upgradedRelatedCards": ["Void Coin"]
     }
   },
   {
@@ -7540,18 +7187,9 @@
       "description": "Overcharge 2. Delay Block 15. Add a Stronk to Deck. Expel.",
       "upgradedDescription": "Overcharge 2. Delay Block 15. Add an upgraded Stronk to Deck. Expel.",
       "keywords": ["Overcharge", "Delay Block", "Block", "Expel"],
-      "relatedCards": [
-        {
-          "id": 491
-        }
-      ],
+      "relatedCards": ["Stronk"],
       "upgradedKeywords": ["Overcharge", "Delay Block", "Block", "Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 491,
-          "upgraded": true
-        }
-      ]
+      "upgradedRelatedCards": ["Stronk - Upgraded"]
     }
   },
   {
@@ -7566,18 +7204,9 @@
       "description": "Apply Shock 14. Delay Rage 75%. Add a Bonk to Deck. Expel.",
       "upgradedDescription": "Apply Shock 16. Delay Rage 100%. Add an upgraded Bonk to Deck. Expel.",
       "keywords": ["Shock - Debuff", "Delay Rage", "Rage", "Expel"],
-      "relatedCards": [
-        {
-          "id": 492
-        }
-      ],
+      "relatedCards": ["Bonk"],
       "upgradedKeywords": ["Shock - Debuff", "Delay Rage", "Rage", "Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 492,
-          "upgraded": true
-        }
-      ]
+      "upgradedRelatedCards": ["Bonk - Upgraded"]
     }
   },
   {
@@ -7592,18 +7221,9 @@
       "description": "Apply Vulnerable 2. Deal 45 damage. Add a Chonk to Deck. Expel.",
       "upgradedDescription": "Apply Vulnerable 4. Deal 60 damage. Add an upgraded Chonk to Deck. Expel.",
       "keywords": ["Vulnerable - Debuff", "Expel"],
-      "relatedCards": [
-        {
-          "id": 490
-        }
-      ],
+      "relatedCards": ["Chonk"],
       "upgradedKeywords": ["Vulnerable - Debuff", "Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 490,
-          "upgraded": true
-        }
-      ]
+      "upgradedRelatedCards": ["Chonk - Upgraded"]
     }
   },
   {
@@ -7653,17 +7273,9 @@
       "upgradedEnergy": 4,
       "upgradedDescription": "Each time an enemy plans an Attack Action, gain 2 Hidden Blades. Expel.",
       "keywords": ["Expel"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blade"],
       "upgradedKeywords": ["Expel"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -7782,17 +7394,9 @@
       "description": "Combo 1. Add 2 Hidden Blades to your hand.",
       "upgradedDescription": "Combo 1. Add 3 Hidden Blades to your hand.",
       "keywords": ["Combo"],
-      "relatedCards": [
-        {
-          "id": 97
-        }
-      ],
+      "relatedCards": ["Hidden Blade"],
       "upgradedKeywords": ["Combo"],
-      "upgradedRelatedCards": [
-        {
-          "id": 97
-        }
-      ]
+      "upgradedRelatedCards": ["Hidden Blade"]
     }
   },
   {
@@ -7806,11 +7410,7 @@
       "energy": null,
       "description": "Dazes are added to the top of your deck. Unplayable.",
       "keywords": ["Unplayable"],
-      "relatedCards": [
-        {
-          "id": 950
-        }
-      ]
+      "relatedCards": ["Daze"]
     }
   },
   {
