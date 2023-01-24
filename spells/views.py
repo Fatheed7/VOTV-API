@@ -13,10 +13,11 @@ class SpellFilter(filters.FilterSet):
     gameClass = filters.CharFilter(lookup_expr='icontains')
     deck = filters.CharFilter(lookup_expr='icontains')
     keywords = filters.CharFilter(lookup_expr='icontains')
+    relatedCards = filters.CharFilter(lookup_expr='icontains')
 
     class Meta:
         model = Spell
-        fields = ['name', 'description', 'cooldown', 'source', 'encounter', 'gameClass', 'deck', 'keywords']
+        fields = ['name', 'description', 'cooldown', 'source', 'encounter', 'gameClass', 'deck', 'keywords', 'relatedCards']
 
 class SpellList(generics.ListAPIView):
     serializer_class = SpellSerializer

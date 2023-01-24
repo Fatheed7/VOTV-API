@@ -8,10 +8,12 @@ class ArtifactFilter(filters.FilterSet):
     gameClass = filters.CharFilter(lookup_expr='icontains')
     rarity = filters.CharFilter(lookup_expr='icontains')
     description = filters.CharFilter(lookup_expr='icontains')
+    keywords = filters.CharFilter(lookup_expr='icontains')
+    relatedCards = filters.CharFilter(lookup_expr='icontains')
 
     class Meta:
         model = Artifact
-        fields = ['name', 'gameClass', 'rarity']
+        fields = ['name', 'gameClass', 'rarity', 'description', 'keywords', 'relatedCards']
 
 class ArtifactList(generics.ListAPIView):
     serializer_class = ArtifactSerializer
