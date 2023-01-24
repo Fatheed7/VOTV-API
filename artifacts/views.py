@@ -1,12 +1,23 @@
 from rest_framework import generics
 from .models import Artifact
 from .serializers import  ArtifactSerializer, ArtifactDetailSerializer
-from django_filters.rest_framework import DjangoFilterBackend
+from django_filters import rest_framework as filters
+
+class ArtifactFilter(filters.FilterSet):
+    name = filters.CharFilter(lookup_expr='icontains')
+    gameClass = filters.CharFilter(lookup_expr='icontains')
+    rarity = filters.CharFilter(lookup_expr='icontains')
+    description = filters.CharFilter(lookup_expr='icontains')
+
+    class Meta:
+        model = Artifact
+        fields = ['name', 'gameClass', 'rarity']
 
 class ArtifactList(generics.ListAPIView):
     serializer_class = ArtifactSerializer
     queryset = Artifact.objects.all()
-    filter_backends = [DjangoFilterBackend]
+    filter_backends = [filters.DjangoFilterBackend,]
+    filterset_class = ArtifactFilter
     filterset_fields = ['name', 'gameClass', 'rarity', 'description']
 
 class ArtifactDetail(generics.RetrieveAPIView):
